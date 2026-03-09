@@ -423,8 +423,8 @@
     "amber": [
       {
         "trigger": "Residential areas deliberately targeted",
-        "status": "red",
-        "note": "Day 9 overnight: confirmed residential hits"
+        "status": "green",
+        "note": "No confirmed deliberate targeting \u2014 all residential damage is interception debris"
       },
       {
         "trigger": "Daily attack volume >200 drones",
@@ -443,8 +443,8 @@
       },
       {
         "trigger": "Second UAE fatality from direct hit",
-        "status": "red",
-        "note": "5 dead, overnight residential hits"
+        "status": "green",
+        "note": "All 4 fatalities from debris, not direct hits"
       },
       {
         "trigger": "IRGC C2 fragmentation confirmed",
