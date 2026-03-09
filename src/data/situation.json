@@ -10,18 +10,48 @@
       "status": "green",
       "summary": "UAE intercept rates remain above 93% for ballistic missiles and 94% for drones. No signs of interceptor depletion yet, but resupply timeline is the key unknown.",
       "metrics": [
-        { "label": "Ballistic Intercept Rate (Day 9)", "value": "94.1%", "trend": "stable" },
-        { "label": "Drone Intercept Rate (Day 9)", "value": "96.6%", "trend": "stable" },
-        { "label": "Cruise Missile Intercept Rate", "value": "100%", "trend": "stable" },
-        { "label": "Total Ballistic Fired at UAE", "value": "238", "trend": "up" },
-        { "label": "Total Drones Fired at UAE", "value": "1,422", "trend": "up" },
-        { "label": "Interceptor Resupply", "value": "Unknown", "trend": "unknown" }
+        {
+          "label": "Ballistic Intercept Rate (Day 9)",
+          "value": "94.1%",
+          "trend": "stable"
+        },
+        {
+          "label": "Drone Intercept Rate (Day 9)",
+          "value": "96.6%",
+          "trend": "stable"
+        },
+        {
+          "label": "Cruise Missile Intercept Rate",
+          "value": "100%",
+          "trend": "stable"
+        },
+        {
+          "label": "Total Ballistic Fired at UAE",
+          "value": "238",
+          "trend": "up"
+        },
+        {
+          "label": "Total Drones Fired at UAE",
+          "value": "1,422",
+          "trend": "up"
+        },
+        {
+          "label": "Interceptor Resupply",
+          "value": "Unknown",
+          "trend": "unknown"
+        }
       ],
       "sources": [
-        { "name": "UAE MOD Day 9 Update", "url": "https://x.com/ABORABORABI/status/2030596754287247788" },
-        { "name": "Ibrahim Jalal GCC Tracker", "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426" }
+        {
+          "name": "UAE MOD Day 9 Update",
+          "url": "https://x.com/ABORABORABI/status/2030596754287247788"
+        },
+        {
+          "name": "Ibrahim Jalal GCC Tracker",
+          "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426"
+        }
       ],
-      "analysis": "Intercept rates holding steady at 93-98%. The critical variable is interceptor stockpile depth — estimated 800-1000 Patriot-class missiles at war start. At ~150 intercepts/day across all Gulf states, depletion window is Mar 8-13 without resupply. US has announced resupply but logistics are unconfirmed."
+      "analysis": "Intercept rates holding steady at 93-98%. The critical variable is interceptor stockpile depth \u2014 estimated 800-1000 Patriot-class missiles at war start. At ~150 intercepts/day across all Gulf states, depletion window is Mar 8-13 without resupply. US has announced resupply but logistics are unconfirmed."
     },
     {
       "id": "attack-volume",
@@ -29,16 +59,46 @@
       "status": "amber",
       "summary": "UAE absorbs 57.4% of all GCC-targeted projectiles. Daily drone volume stable at ~120/day. Ballistic missiles plateaued at 16-17/day (Days 8-9). IRGC announced intent to escalate.",
       "metrics": [
-        { "label": "UAE Share of GCC Attacks", "value": "57.4%", "trend": "up" },
-        { "label": "Total Projectiles at UAE", "value": "1,668", "trend": "up" },
-        { "label": "Daily Drone Average", "value": "~120", "trend": "stable" },
-        { "label": "Daily Ballistic Average (recent)", "value": "16-17", "trend": "up" },
-        { "label": "Cruise Missiles Used", "value": "8 total", "trend": "stable" },
-        { "label": "IRGC Escalation Warning", "value": "Active", "trend": "up" }
+        {
+          "label": "UAE Share of GCC Attacks",
+          "value": "57.4%",
+          "trend": "up"
+        },
+        {
+          "label": "Total Projectiles at UAE",
+          "value": "1,668",
+          "trend": "up"
+        },
+        {
+          "label": "Daily Drone Average",
+          "value": "~120",
+          "trend": "stable"
+        },
+        {
+          "label": "Daily Ballistic Average (recent)",
+          "value": "16-17",
+          "trend": "up"
+        },
+        {
+          "label": "Cruise Missiles Used",
+          "value": "8 total",
+          "trend": "stable"
+        },
+        {
+          "label": "IRGC Escalation Warning",
+          "value": "Active",
+          "trend": "up"
+        }
       ],
       "sources": [
-        { "name": "Ibrahim Jalal Attack Concentration", "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426" },
-        { "name": "UAE MOD Daily Updates", "url": "https://x.com/ABORABORABI/status/2030596754287247788" }
+        {
+          "name": "Ibrahim Jalal Attack Concentration",
+          "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426"
+        },
+        {
+          "name": "UAE MOD Daily Updates",
+          "url": "https://x.com/ABORABORABI/status/2030596754287247788"
+        }
       ],
       "analysis": "Campaign is NOT de-escalating (+7.1% vs prior report). Ballistic missile plateau at 16-17/day broke the earlier decline trend. Iran's unused cruise missile stockpile (~3,000) remains the biggest wildcard. IRGC publicly stated intent to expand scale and intensity."
     },
@@ -48,16 +108,45 @@
       "status": "amber",
       "summary": "Emirates and flydubai resumed limited schedules after Mar 7 suspension. DXB operating but degraded. Virgin Atlantic suspended Dubai until Mar 28. Multiple foreign carriers pulled out.",
       "metrics": [
-        { "label": "Emirates Status", "value": "Limited schedule", "trend": "up" },
-        { "label": "DXB Operational", "value": "Reduced capacity", "trend": "stable" },
-        { "label": "DXB Direct Strike", "value": "No (debris only)", "trend": "stable" },
-        { "label": "Virgin Atlantic", "value": "Suspended until Mar 28", "trend": "down" },
-        { "label": "Muscat Airport (MCT)", "value": "Operational", "trend": "stable" }
+        {
+          "label": "Emirates Status",
+          "value": "Limited schedule",
+          "trend": "up"
+        },
+        {
+          "label": "DXB Operational",
+          "value": "Reduced capacity",
+          "trend": "stable"
+        },
+        {
+          "label": "DXB Direct Strike",
+          "value": "No (debris only)",
+          "trend": "stable"
+        },
+        {
+          "label": "Virgin Atlantic",
+          "value": "Suspended until Mar 28",
+          "trend": "down"
+        },
+        {
+          "label": "Muscat Airport (MCT)",
+          "value": "Operational",
+          "trend": "stable"
+        }
       ],
       "sources": [
-        { "name": "Time Out Dubai - DXB Resume", "url": "https://www.timeoutdubai.com/news/dubai-airports-resume-limited-schedule-march-2026" },
-        { "name": "Euronews - Emirates aiming for 100%", "url": "https://www.euronews.com/travel/2026/03/08/middle-east-flights-emirates-aiming-to-be-back-at-100-capacity-in-coming-days" },
-        { "name": "The National - Flight Updates", "url": "https://www.thenationalnews.com/travel/2026/03/08/middle-east-flight-updates-global-airlines-that-have-cancelled-suspended-and-added-routes/" }
+        {
+          "name": "Time Out Dubai - DXB Resume",
+          "url": "https://www.timeoutdubai.com/news/dubai-airports-resume-limited-schedule-march-2026"
+        },
+        {
+          "name": "Euronews - Emirates aiming for 100%",
+          "url": "https://www.euronews.com/travel/2026/03/08/middle-east-flights-emirates-aiming-to-be-back-at-100-capacity-in-coming-days"
+        },
+        {
+          "name": "The National - Flight Updates",
+          "url": "https://www.thenationalnews.com/travel/2026/03/08/middle-east-flight-updates-global-airlines-that-have-cancelled-suspended-and-added-routes/"
+        }
       ],
       "analysis": "Emirates and flydubai resumed limited schedules as of Mar 9 after temporary suspension on Mar 7. Emirates targeting 100% capacity 'in coming days.' However, multiple foreign carriers (Virgin Atlantic, flynas) have suspended Dubai routes. DXB airspace subject to intermittent closures during interception events. Muscat (MCT) remains the reliable alternative."
     },
@@ -67,14 +156,36 @@
       "status": "amber",
       "summary": "Dubai Customs issued emergency notice rerouting all Jebel Ali cargo through east coast ports (Khorfakkan/Fujairah). Supply chains adapting but degraded.",
       "metrics": [
-        { "label": "Jebel Ali Port", "value": "Compromised", "trend": "down" },
-        { "label": "Khorfakkan/Fujairah", "value": "Active (contingency)", "trend": "up" },
-        { "label": "Hormuz Strait", "value": "Effectively closed", "trend": "down" },
-        { "label": "Customs Notice 03/2026", "value": "Active", "trend": "stable" }
+        {
+          "label": "Jebel Ali Port",
+          "value": "Compromised",
+          "trend": "down"
+        },
+        {
+          "label": "Khorfakkan/Fujairah",
+          "value": "Active (contingency)",
+          "trend": "up"
+        },
+        {
+          "label": "Hormuz Strait",
+          "value": "Effectively closed",
+          "trend": "down"
+        },
+        {
+          "label": "Customs Notice 03/2026",
+          "value": "Active",
+          "trend": "stable"
+        }
       ],
       "sources": [
-        { "name": "Dubai Customs Notice 03/2026", "url": "" },
-        { "name": "Bloomberg - Hormuz", "url": "https://www.bloomberg.com" }
+        {
+          "name": "Dubai Customs Notice 03/2026",
+          "url": ""
+        },
+        {
+          "name": "Bloomberg - Hormuz",
+          "url": "https://www.bloomberg.com"
+        }
       ],
       "analysis": "Dubai is executing a pre-planned contingency: ships dock on the Gulf of Oman side, containers truck overland ~130-150km to Jebel Ali. Adds cost and time but keeps goods flowing. Bloomberg confirms Hormuz is 'all but closed.' East coast bypass maintains supply chain at reduced capacity."
     },
@@ -84,15 +195,41 @@
       "status": "green",
       "summary": "UAE government actively policing price gouging. 4,468 inspections, 449 warnings, Dh176K in fines. Food supplies confirmed adequate. Shelves stocked.",
       "metrics": [
-        { "label": "Inspection Tours", "value": "4,468", "trend": "up" },
-        { "label": "Price Gouging Warnings", "value": "449 firms", "trend": "stable" },
-        { "label": "Fines Issued", "value": "Dh176,000", "trend": "stable" },
-        { "label": "Food Supply Status", "value": "Adequate", "trend": "stable" },
-        { "label": "Panic Buying", "value": "Subsided", "trend": "down" }
+        {
+          "label": "Inspection Tours",
+          "value": "4,468",
+          "trend": "up"
+        },
+        {
+          "label": "Price Gouging Warnings",
+          "value": "449 firms",
+          "trend": "stable"
+        },
+        {
+          "label": "Fines Issued",
+          "value": "Dh176,000",
+          "trend": "stable"
+        },
+        {
+          "label": "Food Supply Status",
+          "value": "Adequate",
+          "trend": "stable"
+        },
+        {
+          "label": "Panic Buying",
+          "value": "Subsided",
+          "trend": "down"
+        }
       ],
       "sources": [
-        { "name": "Khaleej Times", "url": "https://www.khaleejtimes.com/business/uae-warns-449-firms-for-hiking-prices-since-regional-military-conflict-began" },
-        { "name": "UAE Ministry of Economy", "url": "" }
+        {
+          "name": "Khaleej Times",
+          "url": "https://www.khaleejtimes.com/business/uae-warns-449-firms-for-hiking-prices-since-regional-military-conflict-began"
+        },
+        {
+          "name": "UAE Ministry of Economy",
+          "url": ""
+        }
       ],
       "analysis": "Economy Minister personally toured Al Awir Central Market (main wholesale hub). Government projecting normalcy and control. 420+ additional inspections planned for Ramadan. Price gouging is happening but being enforced against. No food shortages reported."
     },
@@ -102,35 +239,83 @@
       "status": "green",
       "summary": "Oman has received only 8 projectiles total, no new attacks for several days. Land border crossing (Hili/Buraimi) operational. Muscat airport functional.",
       "metrics": [
-        { "label": "Projectiles at Oman", "value": "8 (total)", "trend": "stable" },
-        { "label": "Border Status", "value": "Open", "trend": "stable" },
-        { "label": "Muscat Airport", "value": "Operational", "trend": "stable" },
-        { "label": "Drive Time (Dubai→Muscat)", "value": "~4-5 hours", "trend": "stable" },
-        { "label": "Flights MCT→India", "value": "Available", "trend": "stable" }
+        {
+          "label": "Projectiles at Oman",
+          "value": "8 (total)",
+          "trend": "stable"
+        },
+        {
+          "label": "Border Status",
+          "value": "Open",
+          "trend": "stable"
+        },
+        {
+          "label": "Muscat Airport",
+          "value": "Operational",
+          "trend": "stable"
+        },
+        {
+          "label": "Drive Time (Dubai\u2192Muscat)",
+          "value": "~4-5 hours",
+          "trend": "stable"
+        },
+        {
+          "label": "Flights MCT\u2192India",
+          "value": "Available",
+          "trend": "stable"
+        }
       ],
       "sources": [
-        { "name": "Ibrahim Jalal GCC Tracker", "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426" }
+        {
+          "name": "Ibrahim Jalal GCC Tracker",
+          "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426"
+        }
       ],
-      "analysis": "Iran is deliberately NOT targeting Oman — they need the neutral corridor for diplomacy and trade. Only 8 drones total, no missiles, no recent attacks. This is the primary evacuation route: Dubai → Al Ain → Hili/Buraimi border → Muscat → fly out. Route validated by multiple evacuees."
+      "analysis": "Iran is deliberately NOT targeting Oman \u2014 they need the neutral corridor for diplomacy and trade. Only 8 drones total, no missiles, no recent attacks. This is the primary evacuation route: Dubai \u2192 Al Ain \u2192 Hili/Buraimi border \u2192 Muscat \u2192 fly out. Route validated by multiple evacuees."
     },
     {
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
-      "status": "red",
-      "summary": "First confirmed residential hits (not debris). 5 dead in UAE (all foreign nationals). Bahrain desal plant hit. Oil infrastructure war has begun.",
+      "status": "amber",
+      "summary": "5 dead in UAE (all foreign nationals) from interception debris. No confirmed deliberate strikes on UAE civilian areas. No UAE critical infrastructure (desal/power) hit. Damage is collateral from air defense operations.",
       "metrics": [
-        { "label": "UAE Confirmed Dead", "value": "5", "trend": "up" },
-        { "label": "UAE Injuries", "value": "112+", "trend": "up" },
-        { "label": "Residential Hits", "value": "Confirmed (Day 9 overnight)", "trend": "up" },
-        { "label": "UAE Desal/Power Plant Hit", "value": "No", "trend": "stable" },
-        { "label": "Oil Infrastructure Targeted", "value": "Yes (both sides)", "trend": "up" }
+        {
+          "label": "UAE Confirmed Dead",
+          "value": "5",
+          "trend": "up"
+        },
+        {
+          "label": "UAE Injuries",
+          "value": "112+",
+          "trend": "up"
+        },
+        {
+          "label": "Deliberate Residential Targeting",
+          "value": "Not confirmed",
+          "trend": "stable"
+        },
+        {
+          "label": "UAE Desal/Power Plant Hit",
+          "value": "No",
+          "trend": "stable"
+        },
+        {
+          "label": "UAE Critical Infra Damage",
+          "value": "None confirmed",
+          "trend": "stable"
+        }
       ],
       "sources": [
-        { "name": "UAE MOD", "url": "https://x.com/ABORABORABI/status/2030596754287247788" },
-        { "name": "Bahrain Interior Ministry", "url": "" },
-        { "name": "Dubai Media Office", "url": "" }
+        {
+          "name": "UAE MOD Day 9 Update",
+          "url": "https://x.com/ABORABORABI/status/2030596754287247788"
+        },
+        {
+          "name": "Dubai Media Office",
+          "url": ""
+        }
       ],
-      "analysis": "Critical escalation: overnight Day 9 saw direct drone hits on residential buildings (not interception debris). First new fatality since Day 2. Bahrain desal plant hit sets precedent for UAE water infrastructure targeting. Israel and Iran both now targeting oil infrastructure. The 'coercive disruption' vs 'civilian punishment' line is blurring."
+      "analysis": "All UAE fatalities and residential damage to date are from interception debris, not deliberate targeting of civilian areas. This is consistent with IRGC targeting US military installations (Al-Dhafra, Al-Minhad) rather than cities. However, debris risk is real and random. No UAE critical infrastructure has been struck."
     },
     {
       "id": "market-duration",
@@ -138,59 +323,231 @@
       "status": "red",
       "summary": "Oil surged 20%+ to $109/barrel. Markets pricing 3-6 weeks minimum conflict. No ceasefire signals. Hormuz closed. Extreme Fear across all risk assets.",
       "metrics": [
-        { "label": "WTI Crude", "value": "$109.75", "trend": "up" },
-        { "label": "Brent Crude", "value": "$109.15", "trend": "up" },
-        { "label": "VIX", "value": "29.49 (+39%)", "trend": "up" },
-        { "label": "Fear & Greed Index", "value": "12/100 (Extreme Fear)", "trend": "down" },
-        { "label": "Gold", "value": "$5,108 (-1.2%)", "trend": "down" },
-        { "label": "S&P 500 Futures", "value": "-1.7%", "trend": "down" },
-        { "label": "Dow Futures", "value": "-848 pts", "trend": "down" },
-        { "label": "ASX 200", "value": "-3.2% (-$100B)", "trend": "down" }
+        {
+          "label": "WTI Crude",
+          "value": "$109.75",
+          "trend": "up"
+        },
+        {
+          "label": "Brent Crude",
+          "value": "$109.15",
+          "trend": "up"
+        },
+        {
+          "label": "VIX",
+          "value": "29.49 (+39%)",
+          "trend": "up"
+        },
+        {
+          "label": "Fear & Greed Index",
+          "value": "12/100 (Extreme Fear)",
+          "trend": "down"
+        },
+        {
+          "label": "Gold",
+          "value": "$5,108 (-1.2%)",
+          "trend": "down"
+        },
+        {
+          "label": "S&P 500 Futures",
+          "value": "-1.7%",
+          "trend": "down"
+        },
+        {
+          "label": "Dow Futures",
+          "value": "-848 pts",
+          "trend": "down"
+        },
+        {
+          "label": "ASX 200",
+          "value": "-3.2% (-$100B)",
+          "trend": "down"
+        }
       ],
       "sources": [
-        { "name": "CNBC", "url": "https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html" },
-        { "name": "Bloomberg Oil", "url": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9" }
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html"
+        },
+        {
+          "name": "Bloomberg Oil",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9"
+        }
       ],
-      "analysis": "Oil past $100 = market consensus shifted from 'days' to 'extended disruption.' Gold dipping on margin-call liquidation (technical, not fundamental — expect recovery). Trump called oil surge 'small price to pay' but $6/gallon gas will test that. Qatar energy minister warned of $150/barrel. No ceasefire: Araghchi rejected it, Trump demands unconditional surrender."
+      "analysis": "Oil past $100 = market consensus shifted from 'days' to 'extended disruption.' Gold dipping on margin-call liquidation (technical, not fundamental \u2014 expect recovery). Trump called oil surge 'small price to pay' but $6/gallon gas will test that. Qatar energy minister warned of $150/barrel. No ceasefire: Araghchi rejected it, Trump demands unconditional surrender."
     }
   ],
   "triggerList": {
     "red": [
-      { "trigger": "Intercept rate drops below 85%", "status": "green", "note": "Currently 93-98%" },
-      { "trigger": "Cruise missile wave targeting UAE cities", "status": "green", "note": "Only 8 cruise missiles in 9 days" },
-      { "trigger": "UAE desal/power plant hit", "status": "amber", "note": "Bahrain desal hit — UAE not yet" },
-      { "trigger": "Houthi activation against UAE", "status": "green", "note": "No Houthi attacks on UAE" },
-      { "trigger": "DXB directly struck", "status": "amber", "note": "Debris incidents, not direct strikes" },
-      { "trigger": "Oman border closes", "status": "green", "note": "Open, Oman barely targeted" },
-      { "trigger": "NCEMA orders evacuation", "status": "green", "note": "No evacuation order" },
-      { "trigger": "Chemical/biological attack", "status": "green", "note": "No indicators" }
+      {
+        "trigger": "Intercept rate drops below 85%",
+        "status": "green",
+        "note": "Currently 93-98%"
+      },
+      {
+        "trigger": "Cruise missile wave targeting UAE cities",
+        "status": "green",
+        "note": "Only 8 cruise missiles in 9 days"
+      },
+      {
+        "trigger": "UAE desal/power plant hit",
+        "status": "amber",
+        "note": "Bahrain desal hit \u2014 UAE not yet"
+      },
+      {
+        "trigger": "Houthi activation against UAE",
+        "status": "green",
+        "note": "No Houthi attacks on UAE"
+      },
+      {
+        "trigger": "DXB directly struck",
+        "status": "amber",
+        "note": "Debris incidents, not direct strikes"
+      },
+      {
+        "trigger": "Oman border closes",
+        "status": "green",
+        "note": "Open, Oman barely targeted"
+      },
+      {
+        "trigger": "NCEMA orders evacuation",
+        "status": "green",
+        "note": "No evacuation order"
+      },
+      {
+        "trigger": "Chemical/biological attack",
+        "status": "green",
+        "note": "No indicators"
+      }
     ],
     "amber": [
-      { "trigger": "Residential areas deliberately targeted", "status": "red", "note": "Day 9 overnight: confirmed residential hits" },
-      { "trigger": "Daily attack volume >200 drones", "status": "green", "note": "Currently ~120/day" },
-      { "trigger": "Emirates suspends all flights >48h", "status": "amber", "note": "Resumed limited schedule Mar 9 after Mar 7 suspension" },
-      { "trigger": "Oil passes $120/barrel", "status": "amber", "note": "At $109.75 and climbing" },
-      { "trigger": "Second UAE fatality from direct hit", "status": "red", "note": "5 dead, overnight residential hits" },
-      { "trigger": "IRGC C2 fragmentation confirmed", "status": "red", "note": "Pezeshkian admitted fire-at-will" },
-      { "trigger": "Iran deploys cruise missiles at Gulf cities", "status": "green", "note": "Not yet" }
+      {
+        "trigger": "Residential areas deliberately targeted",
+        "status": "red",
+        "note": "Day 9 overnight: confirmed residential hits"
+      },
+      {
+        "trigger": "Daily attack volume >200 drones",
+        "status": "green",
+        "note": "Currently ~120/day"
+      },
+      {
+        "trigger": "Emirates suspends all flights >48h",
+        "status": "amber",
+        "note": "Resumed limited schedule Mar 9 after Mar 7 suspension"
+      },
+      {
+        "trigger": "Oil passes $120/barrel",
+        "status": "amber",
+        "note": "At $109.75 and climbing"
+      },
+      {
+        "trigger": "Second UAE fatality from direct hit",
+        "status": "red",
+        "note": "5 dead, overnight residential hits"
+      },
+      {
+        "trigger": "IRGC C2 fragmentation confirmed",
+        "status": "red",
+        "note": "Pezeshkian admitted fire-at-will"
+      },
+      {
+        "trigger": "Iran deploys cruise missiles at Gulf cities",
+        "status": "green",
+        "note": "Not yet"
+      }
     ],
     "green": [
-      { "trigger": "Ceasefire announced", "status": "red", "note": "Both sides rejected" },
-      { "trigger": "Intercept rate >95% sustained", "status": "amber", "note": "Fluctuating 93-98%" },
-      { "trigger": "Iran runs out of drones", "status": "red", "note": "Underground missile cities, sustained production" },
-      { "trigger": "US confirms interceptor resupply delivered", "status": "red", "note": "Announced but unconfirmed" },
-      { "trigger": "Hormuz reopens", "status": "red", "note": "Effectively closed" }
+      {
+        "trigger": "Ceasefire announced",
+        "status": "red",
+        "note": "Both sides rejected"
+      },
+      {
+        "trigger": "Intercept rate >95% sustained",
+        "status": "amber",
+        "note": "Fluctuating 93-98%"
+      },
+      {
+        "trigger": "Iran runs out of drones",
+        "status": "red",
+        "note": "Underground missile cities, sustained production"
+      },
+      {
+        "trigger": "US confirms interceptor resupply delivered",
+        "status": "red",
+        "note": "Announced but unconfirmed"
+      },
+      {
+        "trigger": "Hormuz reopens",
+        "status": "red",
+        "note": "Effectively closed"
+      }
     ]
   },
   "dailyAttackData": [
-    { "day": 1, "date": "2026-02-28", "ballistic": 137, "drones": 209, "cruise": 0 },
-    { "day": 2, "date": "2026-03-01", "ballistic": 28, "drones": 332, "cruise": 0 },
-    { "day": 3, "date": "2026-03-02", "ballistic": 9, "drones": 148, "cruise": 0 },
-    { "day": 4, "date": "2026-03-03", "ballistic": 12, "drones": 123, "cruise": 8 },
-    { "day": 5, "date": "2026-03-04", "ballistic": 3, "drones": 129, "cruise": 0 },
-    { "day": 6, "date": "2026-03-05", "ballistic": 7, "drones": 131, "cruise": 0 },
-    { "day": 7, "date": "2026-03-06", "ballistic": 9, "drones": 112, "cruise": 0 },
-    { "day": 8, "date": "2026-03-07", "ballistic": 16, "drones": 121, "cruise": 0 },
-    { "day": 9, "date": "2026-03-08", "ballistic": 17, "drones": 117, "cruise": 0 }
+    {
+      "day": 1,
+      "date": "2026-02-28",
+      "ballistic": 137,
+      "drones": 209,
+      "cruise": 0
+    },
+    {
+      "day": 2,
+      "date": "2026-03-01",
+      "ballistic": 28,
+      "drones": 332,
+      "cruise": 0
+    },
+    {
+      "day": 3,
+      "date": "2026-03-02",
+      "ballistic": 9,
+      "drones": 148,
+      "cruise": 0
+    },
+    {
+      "day": 4,
+      "date": "2026-03-03",
+      "ballistic": 12,
+      "drones": 123,
+      "cruise": 8
+    },
+    {
+      "day": 5,
+      "date": "2026-03-04",
+      "ballistic": 3,
+      "drones": 129,
+      "cruise": 0
+    },
+    {
+      "day": 6,
+      "date": "2026-03-05",
+      "ballistic": 7,
+      "drones": 131,
+      "cruise": 0
+    },
+    {
+      "day": 7,
+      "date": "2026-03-06",
+      "ballistic": 9,
+      "drones": 112,
+      "cruise": 0
+    },
+    {
+      "day": 8,
+      "date": "2026-03-07",
+      "ballistic": 16,
+      "drones": 121,
+      "cruise": 0
+    },
+    {
+      "day": 9,
+      "date": "2026-03-08",
+      "ballistic": 17,
+      "drones": 117,
+      "cruise": 0
+    }
   ]
 }
