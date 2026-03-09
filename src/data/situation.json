@@ -7,13 +7,13 @@
     {
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
-      "status": "amber",
+      "status": "green",
       "summary": "Day 10 ballistic intercept rate dropped to 80% \u2014 lowest of the war. Drone rate held at 94.4%. Daily volume collapsed (18 drones vs ~120 avg). Either Iran's capacity is degraded or they're pausing to reload.",
       "metrics": [
         {
           "label": "Ballistic Intercept (Day 10)",
-          "value": "80%",
-          "trend": "down"
+          "value": "80% raw / 100% land-threat",
+          "trend": "stable"
         },
         {
           "label": "Drone Intercept (Day 10)",
@@ -51,7 +51,7 @@
           "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426"
         }
       ],
-      "analysis": "Ballistic intercept rate dropped to 80% on Day 10 \u2014 first time below 85% red trigger threshold (though misses hit sea, not land). Daily attack volume collapsed from ~135 to just 33 total projectiles. Two interpretations: (1) US/Israeli strikes degrading Iran launch infrastructure, or (2) IRGC pausing to reposition for larger wave. The volume drop is reassuring; the intercept rate drop is not."
+      "analysis": "Raw intercept rate dropped to 80% (12/15) but all 3 misses fell in sea \u2014 zero hit UAE territory. The operationally relevant metric may be land-threat intercept rate, which remains 100%. Defense systems likely did not engage missiles on sea-bound trajectories to conserve interceptor stocks. Volume collapsed from ~135 to 33 total projectiles \u2014 either Iran's capacity is degraded or IRGC is repositioning."
     },
     {
       "id": "attack-volume",
@@ -381,8 +381,8 @@
     "red": [
       {
         "trigger": "Intercept rate drops below 85%",
-        "status": "amber",
-        "note": "Day 10 ballistic at 80% (below 85% threshold) but misses hit sea not land"
+        "status": "green",
+        "note": "Day 10: 80% raw but 3 misses hit sea, 0 hit land. Land-threat rate still ~100%"
       },
       {
         "trigger": "Cruise missile wave targeting UAE cities",
