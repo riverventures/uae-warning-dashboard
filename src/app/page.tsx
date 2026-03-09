@@ -68,7 +68,7 @@ function SectionCard({ section }: { section: (typeof data.sections)[number] }) {
             <div className="text-zinc-500 text-xs uppercase tracking-wider">{m.label}</div>
             <div className="text-white font-mono text-sm flex items-center gap-1">
               {m.value}
-              <span className={m.trend === "up" ? "text-red-400" : m.trend === "down" ? "text-green-400" : "text-zinc-500"}>
+              <span className="text-zinc-400">
                 {trendIcons[m.trend] || ""}
               </span>
             </div>

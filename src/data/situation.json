@@ -18,7 +18,7 @@
         { "label": "Interceptor Resupply", "value": "Unknown", "trend": "unknown" }
       ],
       "sources": [
-        { "name": "UAE MOD Official Twitter", "url": "https://x.com/modaborabi" },
+        { "name": "UAE MOD Day 9 Update", "url": "https://x.com/ABORABORABI/status/2030596754287247788" },
         { "name": "Ibrahim Jalal GCC Tracker", "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426" }
       ],
       "analysis": "Intercept rates holding steady at 93-98%. The critical variable is interceptor stockpile depth — estimated 800-1000 Patriot-class missiles at war start. At ~150 intercepts/day across all Gulf states, depletion window is Mar 8-13 without resupply. US has announced resupply but logistics are unconfirmed."
@@ -38,26 +38,28 @@
       ],
       "sources": [
         { "name": "Ibrahim Jalal Attack Concentration", "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426" },
-        { "name": "UAE MOD Daily Updates", "url": "https://x.com/modaborabi" }
+        { "name": "UAE MOD Daily Updates", "url": "https://x.com/ABORABORABI/status/2030596754287247788" }
       ],
       "analysis": "Campaign is NOT de-escalating (+7.1% vs prior report). Ballistic missile plateau at 16-17/day broke the earlier decline trend. Iran's unused cruise missile stockpile (~3,000) remains the biggest wildcard. IRGC publicly stated intent to expand scale and intensity."
     },
     {
       "id": "airport",
       "title": "Airport & Airspace Operations",
-      "status": "red",
-      "summary": "Emirates cancelled flights Mar 9-15. DXB experiencing repeated temporary closures due to interception debris. Multiple airlines suspended UAE routes.",
+      "status": "amber",
+      "summary": "Emirates and flydubai resumed limited schedules after Mar 7 suspension. DXB operating but degraded. Virgin Atlantic suspended Dubai until Mar 28. Multiple foreign carriers pulled out.",
       "metrics": [
-        { "label": "Emirates Status", "value": "Suspended (Mar 9-15)", "trend": "down" },
-        { "label": "DXB Operational", "value": "Intermittent", "trend": "down" },
+        { "label": "Emirates Status", "value": "Limited schedule", "trend": "up" },
+        { "label": "DXB Operational", "value": "Reduced capacity", "trend": "stable" },
         { "label": "DXB Direct Strike", "value": "No (debris only)", "trend": "stable" },
+        { "label": "Virgin Atlantic", "value": "Suspended until Mar 28", "trend": "down" },
         { "label": "Muscat Airport (MCT)", "value": "Operational", "trend": "stable" }
       ],
       "sources": [
-        { "name": "Emirates Airline", "url": "https://www.emirates.com" },
-        { "name": "Dubai Airports", "url": "https://www.dubaiairports.ae" }
+        { "name": "Time Out Dubai - DXB Resume", "url": "https://www.timeoutdubai.com/news/dubai-airports-resume-limited-schedule-march-2026" },
+        { "name": "Euronews - Emirates aiming for 100%", "url": "https://www.euronews.com/travel/2026/03/08/middle-east-flights-emirates-aiming-to-be-back-at-100-capacity-in-coming-days" },
+        { "name": "The National - Flight Updates", "url": "https://www.thenationalnews.com/travel/2026/03/08/middle-east-flight-updates-global-airlines-that-have-cancelled-suspended-and-added-routes/" }
       ],
-      "analysis": "Commercial aviation from DXB is severely degraded. Emirates full-week suspension is the clearest signal. Muscat (MCT) remains the viable alternative for outbound flights. Evacuation by air requires land transit to Oman first."
+      "analysis": "Emirates and flydubai resumed limited schedules as of Mar 9 after temporary suspension on Mar 7. Emirates targeting 100% capacity 'in coming days.' However, multiple foreign carriers (Virgin Atlantic, flynas) have suspended Dubai routes. DXB airspace subject to intermittent closures during interception events. Muscat (MCT) remains the reliable alternative."
     },
     {
       "id": "ports",
@@ -125,7 +127,7 @@
         { "label": "Oil Infrastructure Targeted", "value": "Yes (both sides)", "trend": "up" }
       ],
       "sources": [
-        { "name": "UAE MOD", "url": "https://x.com/modaborabi" },
+        { "name": "UAE MOD", "url": "https://x.com/ABORABORABI/status/2030596754287247788" },
         { "name": "Bahrain Interior Ministry", "url": "" },
         { "name": "Dubai Media Office", "url": "" }
       ],
@@ -167,7 +169,7 @@
     "amber": [
       { "trigger": "Residential areas deliberately targeted", "status": "red", "note": "Day 9 overnight: confirmed residential hits" },
       { "trigger": "Daily attack volume >200 drones", "status": "green", "note": "Currently ~120/day" },
-      { "trigger": "Emirates suspends all flights >48h", "status": "red", "note": "Suspended Mar 9-15" },
+      { "trigger": "Emirates suspends all flights >48h", "status": "amber", "note": "Resumed limited schedule Mar 9 after Mar 7 suspension" },
       { "trigger": "Oil passes $120/barrel", "status": "amber", "note": "At $109.75 and climbing" },
       { "trigger": "Second UAE fatality from direct hit", "status": "red", "note": "5 dead, overnight residential hits" },
       { "trigger": "IRGC C2 fragmentation confirmed", "status": "red", "note": "Pezeshkian admitted fire-at-will" },
