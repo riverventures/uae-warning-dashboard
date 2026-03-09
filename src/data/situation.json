@@ -375,6 +375,77 @@
         }
       ],
       "analysis": "Oil past $100 = market consensus shifted from 'days' to 'extended disruption.' Gold dipping on margin-call liquidation (technical, not fundamental \u2014 expect recovery). Trump called oil surge 'small price to pay' but $6/gallon gas will test that. Qatar energy minister warned of $150/barrel. No ceasefire: Araghchi rejected it, Trump demands unconditional surrender."
+    },
+    {
+      "id": "endgame",
+      "title": "Conflict Endgame \u2014 Is Tehran Still Coherent?",
+      "status": "amber",
+      "summary": "Tehran's command structure is fractured but not collapsed. Pezeshkian has no military control. New Supreme Leader chosen but unannounced. IRGC operating semi-autonomously. No ceasefire path visible \u2014 both sides publicly locked in.",
+      "metrics": [
+        {
+          "label": "Ceasefire Talks",
+          "value": "None",
+          "trend": "stable"
+        },
+        {
+          "label": "Iran FM Position",
+          "value": "Rejected ceasefire",
+          "trend": "stable"
+        },
+        {
+          "label": "US Position",
+          "value": "Unconditional surrender",
+          "trend": "stable"
+        },
+        {
+          "label": "Tehran C2 Coherence",
+          "value": "Fractured",
+          "trend": "down"
+        },
+        {
+          "label": "New Supreme Leader",
+          "value": "Chosen, unannounced",
+          "trend": "stable"
+        },
+        {
+          "label": "Trump Timeline",
+          "value": "~4 weeks (Daily Mail)",
+          "trend": "stable"
+        },
+        {
+          "label": "IRGC Autonomy Level",
+          "value": "High (fire-at-will)",
+          "trend": "up"
+        },
+        {
+          "label": "US Staff Ordered Out of KSA",
+          "value": "Yes (Mar 9)",
+          "trend": "up"
+        }
+      ],
+      "sources": [
+        {
+          "name": "NBC - Araghchi rejects ceasefire",
+          "url": "https://www.nbcnews.com/world/iran/irans-foreign-minister-rejects-calls-ceasefire-continue-fighting-rcna262291"
+        },
+        {
+          "name": "CNBC - US orders staff out of KSA",
+          "url": "https://www.cnbc.com/2026/03/09/iran-war-updates-oil-brent-wti-crude-110-gulf-gcc-uae-iraq-saudi-arabia-kurds.html"
+        },
+        {
+          "name": "Sky News - No room for ceasefire talks",
+          "url": "https://news.sky.com/story/iran-latest-trump-tehran-israel-strikes-us-drone-live-sky-news-13509565"
+        },
+        {
+          "name": "The National - Araghchi vows to fight",
+          "url": "https://www.thenationalnews.com/news/us/2026/03/08/irans-foreign-minister-rejects-unconditional-ceasefire-and-vows-to-fight-until-war-ends/"
+        },
+        {
+          "name": "Guardian - No coherent endgame",
+          "url": "https://www.theguardian.com/world/2026/mar/07/iran-us-israel-war-regime-change"
+        }
+      ],
+      "analysis": "The single most important variable: is Tehran's decision-making still centralized? Evidence says partially. Pezeshkian's apology + walkback revealed civilian leadership has zero military authority. IRGC admitted 'fire-at-will' orders = autonomous units. Assembly of Experts chose a successor but won't announce (Israel threatened to kill whoever is named). Iran FM says 'no room for ceasefire talks.' Trump says 4-week timetable. Both sides locked in \u2014 the most likely off-ramp is exhaustion (Iran runs low on launchers, US domestic oil-price pressure builds) rather than negotiation. Key signals that would change this: (1) Iran backchannel via Oman or China, (2) IRGC volume drops below 20/day sustained = capacity exhaustion, (3) Trump shifts rhetoric from 'surrender' to 'deal', (4) Tehran announces Supreme Leader publicly = regime stabilizing, (5) Hormuz mining or tanker seizure = massive escalation."
     }
   ],
   "triggerList": {
