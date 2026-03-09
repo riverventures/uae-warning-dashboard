@@ -122,8 +122,7 @@
         { "label": "UAE Confirmed Dead", "value": "5", "trend": "up" },
         { "label": "UAE Injuries", "value": "112+", "trend": "up" },
         { "label": "Residential Hits", "value": "Confirmed (Day 9 overnight)", "trend": "up" },
-        { "label": "Desal Plant Hit (Bahrain)", "value": "Yes", "trend": "up" },
-        { "label": "UAE Desal Hit", "value": "No", "trend": "stable" },
+        { "label": "UAE Desal/Power Plant Hit", "value": "No", "trend": "stable" },
         { "label": "Oil Infrastructure Targeted", "value": "Yes (both sides)", "trend": "up" }
       ],
       "sources": [
