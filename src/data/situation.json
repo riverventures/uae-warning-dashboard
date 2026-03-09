@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T05:30:00+04:00",
+  "lastUpdated": "2026-03-09T15:30:00+04:00",
   "conflictDay": 10,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
@@ -7,77 +7,77 @@
     {
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
-      "status": "green",
-      "summary": "UAE intercept rates remain above 93% for ballistic missiles and 94% for drones. No signs of interceptor depletion yet, but resupply timeline is the key unknown.",
+      "status": "amber",
+      "summary": "Day 10 ballistic intercept rate dropped to 80% \u2014 lowest of the war. Drone rate held at 94.4%. Daily volume collapsed (18 drones vs ~120 avg). Either Iran's capacity is degraded or they're pausing to reload.",
       "metrics": [
         {
-          "label": "Ballistic Intercept Rate (Day 9)",
-          "value": "94.1%",
+          "label": "Ballistic Intercept (Day 10)",
+          "value": "80%",
+          "trend": "down"
+        },
+        {
+          "label": "Drone Intercept (Day 10)",
+          "value": "94.4%",
           "trend": "stable"
         },
         {
-          "label": "Drone Intercept Rate (Day 9)",
-          "value": "96.6%",
-          "trend": "stable"
-        },
-        {
-          "label": "Cruise Missile Intercept Rate",
+          "label": "Cruise Missile Intercept",
           "value": "100%",
           "trend": "stable"
         },
         {
-          "label": "Total Ballistic Fired at UAE",
-          "value": "238",
+          "label": "Total Ballistic (cumulative)",
+          "value": "253",
           "trend": "up"
         },
         {
-          "label": "Total Drones Fired at UAE",
-          "value": "1,422",
+          "label": "Total Drones (cumulative)",
+          "value": "1,440",
           "trend": "up"
         },
         {
-          "label": "Interceptor Resupply",
-          "value": "Unknown",
-          "trend": "unknown"
+          "label": "Daily Volume (Day 10)",
+          "value": "33 (vs ~135 avg)",
+          "trend": "down"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 9 Update",
-          "url": "https://x.com/ABORABORABI/status/2030596754287247788"
+          "name": "UAE MOD Day 10",
+          "url": "https://x.com/modgovae/status/2030969656438079684"
         },
         {
           "name": "Ibrahim Jalal GCC Tracker",
           "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426"
         }
       ],
-      "analysis": "Intercept rates holding steady at 93-98%. The critical variable is interceptor stockpile depth \u2014 estimated 800-1000 Patriot-class missiles at war start. At ~150 intercepts/day across all Gulf states, depletion window is Mar 8-13 without resupply. US has announced resupply but logistics are unconfirmed."
+      "analysis": "Ballistic intercept rate dropped to 80% on Day 10 \u2014 first time below 85% red trigger threshold (though misses hit sea, not land). Daily attack volume collapsed from ~135 to just 33 total projectiles. Two interpretations: (1) US/Israeli strikes degrading Iran launch infrastructure, or (2) IRGC pausing to reposition for larger wave. The volume drop is reassuring; the intercept rate drop is not."
     },
     {
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "amber",
-      "summary": "UAE absorbs 57.4% of all GCC-targeted projectiles. Daily drone volume stable at ~120/day. Ballistic missiles plateaued at 16-17/day (Days 8-9). IRGC announced intent to escalate.",
+      "summary": "Day 10 saw dramatic volume drop: only 15 ballistic + 18 drones (33 total vs ~135 daily average). Either Iran's launch capacity degraded or IRGC repositioning. UAE still absorbs majority of GCC attacks.",
       "metrics": [
         {
           "label": "UAE Share of GCC Attacks",
           "value": "57.4%",
-          "trend": "up"
-        },
-        {
-          "label": "Total Projectiles at UAE",
-          "value": "1,668",
-          "trend": "up"
-        },
-        {
-          "label": "Daily Drone Average",
-          "value": "~120",
           "trend": "stable"
         },
         {
-          "label": "Daily Ballistic Average (recent)",
-          "value": "16-17",
+          "label": "Total Projectiles at UAE",
+          "value": "1,701",
           "trend": "up"
+        },
+        {
+          "label": "Day 10 Drones",
+          "value": "18",
+          "trend": "down"
+        },
+        {
+          "label": "Day 10 Ballistic",
+          "value": "15",
+          "trend": "down"
         },
         {
           "label": "Cruise Missiles Used",
@@ -86,18 +86,18 @@
         },
         {
           "label": "IRGC Escalation Warning",
-          "value": "Active",
-          "trend": "up"
+          "value": "Active (unfulfilled)",
+          "trend": "stable"
         }
       ],
       "sources": [
         {
-          "name": "Ibrahim Jalal Attack Concentration",
-          "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426"
+          "name": "UAE MOD Day 10",
+          "url": "https://x.com/modgovae/status/2030969656438079684"
         },
         {
-          "name": "UAE MOD Daily Updates",
-          "url": "https://x.com/ABORABORABI/status/2030596754287247788"
+          "name": "Ibrahim Jalal GCC Tracker",
+          "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426"
         }
       ],
       "analysis": "Campaign is NOT de-escalating (+7.1% vs prior report). Ballistic missile plateau at 16-17/day broke the earlier decline trend. Iran's unused cruise missile stockpile (~3,000) remains the biggest wildcard. IRGC publicly stated intent to expand scale and intensity."
@@ -281,12 +281,12 @@
       "metrics": [
         {
           "label": "UAE Confirmed Dead",
-          "value": "5",
-          "trend": "up"
+          "value": "4",
+          "trend": "stable"
         },
         {
           "label": "UAE Injuries",
-          "value": "112+",
+          "value": "117",
           "trend": "up"
         },
         {
@@ -381,8 +381,8 @@
     "red": [
       {
         "trigger": "Intercept rate drops below 85%",
-        "status": "green",
-        "note": "Currently 93-98%"
+        "status": "amber",
+        "note": "Day 10 ballistic at 80% (below 85% threshold) but misses hit sea not land"
       },
       {
         "trigger": "Cruise missile wave targeting UAE cities",
@@ -547,6 +547,13 @@
       "date": "2026-03-08",
       "ballistic": 17,
       "drones": 117,
+      "cruise": 0
+    },
+    {
+      "day": 10,
+      "date": "2026-03-09",
+      "ballistic": 15,
+      "drones": 18,
       "cruise": 0
     }
   ]
