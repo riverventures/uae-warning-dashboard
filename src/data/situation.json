@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-09T15:30:00+04:00",
-  "conflictDay": 10,
+  "lastUpdated": "2026-03-10T05:30:00+04:00",
+  "conflictDay": 11,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -106,31 +106,36 @@
       "id": "airport",
       "title": "Airport & Airspace Operations",
       "status": "amber",
-      "summary": "Emirates and flydubai resumed limited schedules after Mar 7 suspension. DXB operating but degraded. Virgin Atlantic suspended Dubai until Mar 28. Multiple foreign carriers pulled out.",
+      "summary": "DXB operating with limited schedule. Emirates gradually returning to full ops. Etihad resuming additional services today. Air India operating 32 extra flights Mar 10. Multiple foreign carriers still suspended.",
       "metrics": [
         {
           "label": "Emirates Status",
-          "value": "Limited schedule",
+          "value": "Limited, expanding",
+          "trend": "up"
+        },
+        {
+          "label": "Etihad Status",
+          "value": "Resuming additional services",
           "trend": "up"
         },
         {
           "label": "DXB Operational",
-          "value": "Reduced capacity",
+          "value": "Limited schedule",
           "trend": "stable"
         },
         {
-          "label": "DXB Direct Strike",
-          "value": "No (debris only)",
-          "trend": "stable"
+          "label": "Air India Extra Flights",
+          "value": "32 (Mar 10)",
+          "trend": "up"
         },
         {
           "label": "Virgin Atlantic",
           "value": "Suspended until Mar 28",
-          "trend": "down"
+          "trend": "stable"
         },
         {
           "label": "Muscat Airport (MCT)",
-          "value": "Operational",
+          "value": "Fully operational",
           "trend": "stable"
         }
       ],
@@ -154,22 +159,22 @@
       "id": "ports",
       "title": "Ports & Cargo Continuity",
       "status": "amber",
-      "summary": "Dubai Customs issued emergency notice rerouting all Jebel Ali cargo through east coast ports (Khorfakkan/Fujairah). Supply chains adapting but degraded.",
+      "summary": "Hormuz traffic down 90% (MarineTraffic). CSIS confirms Iran 'largely successful' in shutting it down. No ships transited Mar 1-2. East coast ports (Khorfakkan/Fujairah) handling diverted cargo.",
       "metrics": [
+        {
+          "label": "Hormuz Traffic",
+          "value": "Down 90%",
+          "trend": "down"
+        },
         {
           "label": "Jebel Ali Port",
           "value": "Compromised",
-          "trend": "down"
+          "trend": "stable"
         },
         {
           "label": "Khorfakkan/Fujairah",
           "value": "Active (contingency)",
-          "trend": "up"
-        },
-        {
-          "label": "Hormuz Strait",
-          "value": "Effectively closed",
-          "trend": "down"
+          "trend": "stable"
         },
         {
           "label": "Customs Notice 03/2026",
@@ -179,12 +184,16 @@
       ],
       "sources": [
         {
-          "name": "Dubai Customs Notice 03/2026",
-          "url": ""
+          "name": "NBC - Hormuz traffic down 90%",
+          "url": "https://www.nbcnews.com/business/economy/shipping-slows-crawl-strait-hormuz-threatening-snarl-international-tra-rcna261797"
         },
         {
-          "name": "Bloomberg - Hormuz",
-          "url": "https://www.bloomberg.com"
+          "name": "CSIS - Hormuz analysis",
+          "url": "https://www.csis.org/analysis/no-one-not-even-beijing-getting-through-strait-hormuz"
+        },
+        {
+          "name": "CBS - Hormuz explainer",
+          "url": "https://www.cbsnews.com/news/strait-of-hormuz-iran-oil-prices-us/"
         }
       ],
       "analysis": "Dubai is executing a pre-planned contingency: ships dock on the Gulf of Oman side, containers truck overland ~130-150km to Jebel Ali. Adds cost and time but keeps goods flowing. Bloomberg confirms Hormuz is 'all but closed.' East coast bypass maintains supply chain at reduced capacity."
@@ -237,38 +246,51 @@
       "id": "oman-border",
       "title": "Oman Border & Muscat Viability",
       "status": "green",
-      "summary": "Oman has received only 8 projectiles total, no new attacks for several days. Land border crossing (Hili/Buraimi) operational. Muscat airport functional.",
+      "summary": "Oman confirmed as primary evacuation hub (NYT). 600+ evacuated by bus. Oman Air running Sharjah-Muscat bus link. BA/QR/Emirates/Etihad joint British evacuation via Oman. Border ~1hr queue.",
       "metrics": [
         {
           "label": "Projectiles at Oman",
-          "value": "8 (total)",
+          "value": "8 (unchanged)",
           "trend": "stable"
         },
         {
           "label": "Border Status",
-          "value": "Open",
+          "value": "Open (~1hr queue)",
           "trend": "stable"
         },
         {
           "label": "Muscat Airport",
-          "value": "Operational",
+          "value": "Fully operational",
           "trend": "stable"
         },
         {
-          "label": "Drive Time (Dubai\u2192Muscat)",
-          "value": "~4-5 hours",
-          "trend": "stable"
+          "label": "Bus Link (Sharjah\u2192MCT)",
+          "value": "Active (Oman Air)",
+          "trend": "up"
+        },
+        {
+          "label": "Evacuated via Oman",
+          "value": "600+ by bus",
+          "trend": "up"
         },
         {
           "label": "Flights MCT\u2192India",
-          "value": "Available",
-          "trend": "stable"
+          "value": "Available + expanding",
+          "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "Ibrahim Jalal GCC Tracker",
-          "url": "https://x.com/IbrahimJalalYE/status/2030848027770888426"
+          "name": "NYT - Oman Evacuation Hub",
+          "url": "https://www.nytimes.com/2026/03/09/world/middleeast/iran-war-oman-evacuations.html"
+        },
+        {
+          "name": "AGBI - Evacuation flight demand",
+          "url": "https://www.agbi.com/aviation/2026/03/evacuation-flight-demand-surges-during-iran-conflict/"
+        },
+        {
+          "name": "The Traveler - Oman Air bus link",
+          "url": "https://www.thetraveler.org/oman-air-adds-uae-muscat-bus-link-for-stranded-fliers/"
         }
       ],
       "analysis": "Iran is deliberately NOT targeting Oman \u2014 they need the neutral corridor for diplomacy and trade. Only 8 drones total, no missiles, no recent attacks. This is the primary evacuation route: Dubai \u2192 Al Ain \u2192 Hili/Buraimi border \u2192 Muscat \u2192 fly out. Route validated by multiple evacuees."
@@ -277,15 +299,20 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "amber",
-      "summary": "5 dead in UAE (all foreign nationals) from interception debris. No confirmed deliberate strikes on UAE civilian areas. No UAE critical infrastructure (desal/power) hit. Damage is collateral from air defense operations.",
+      "summary": "4 civilian deaths (foreign nationals, all debris). NEW: 2 UAE armed forces members martyred \u2014 first military fatalities. 117 injuries. No confirmed deliberate civilian targeting.",
       "metrics": [
         {
-          "label": "UAE Confirmed Dead",
+          "label": "Civilian Dead",
           "value": "4",
           "trend": "stable"
         },
         {
-          "label": "UAE Injuries",
+          "label": "Military Martyred",
+          "value": "2 (NEW)",
+          "trend": "up"
+        },
+        {
+          "label": "Injuries",
           "value": "117",
           "trend": "up"
         },
@@ -300,9 +327,9 @@
           "trend": "stable"
         },
         {
-          "label": "UAE Critical Infra Damage",
-          "value": "None confirmed",
-          "trend": "stable"
+          "label": "UAE Consulate (Iraq) Attacked",
+          "value": "Yes (NEW)",
+          "trend": "up"
         }
       ],
       "sources": [
@@ -313,6 +340,10 @@
         {
           "name": "Dubai Media Office",
           "url": ""
+        },
+        {
+          "name": "Khaleej Times - 2 martyred",
+          "url": "https://www.khaleejtimes.com/world/mena/day-10-us-israel-iran-war-live-updates"
         }
       ],
       "analysis": "All UAE fatalities and residential damage to date are from interception debris, not deliberate targeting of civilian areas. This is consistent with IRGC targeting US military installations (Al-Dhafra, Al-Minhad) rather than cities. However, debris risk is real and random. No UAE critical infrastructure has been struck."
@@ -320,132 +351,136 @@
     {
       "id": "market-duration",
       "title": "Market-Implied Conflict Duration",
-      "status": "red",
-      "summary": "Oil surged 20%+ to $109/barrel. Markets pricing 3-6 weeks minimum conflict. No ceasefire signals. Hormuz closed. Extreme Fear across all risk assets.",
+      "status": "amber",
+      "summary": "Oil whiplash: spiked to $119.50 then crashed to ~$86 after Trump's 'war is very complete' comments. Markets erased steep losses. Signal: markets WANT to price in an end \u2014 any credible de-escalation will trigger a massive relief rally.",
       "metrics": [
         {
           "label": "WTI Crude",
-          "value": "$109.75",
-          "trend": "up"
+          "value": "~$86.50",
+          "trend": "down"
         },
         {
           "label": "Brent Crude",
-          "value": "$109.15",
-          "trend": "up"
+          "value": "~$90.17",
+          "trend": "down"
+        },
+        {
+          "label": "Oil Overnight Peak",
+          "value": "$119.50",
+          "trend": "down"
         },
         {
           "label": "VIX",
-          "value": "29.49 (+39%)",
-          "trend": "up"
-        },
-        {
-          "label": "Fear & Greed Index",
-          "value": "12/100 (Extreme Fear)",
-          "trend": "down"
+          "value": "~30 (touched)",
+          "trend": "stable"
         },
         {
           "label": "Gold",
-          "value": "$5,108 (-1.2%)",
+          "value": "$5,133",
+          "trend": "up"
+        },
+        {
+          "label": "S&P 500",
+          "value": "-1.05%",
           "trend": "down"
         },
         {
-          "label": "S&P 500 Futures",
-          "value": "-1.7%",
+          "label": "Dow",
+          "value": "-528 pts (-1.1%)",
           "trend": "down"
         },
         {
-          "label": "Dow Futures",
-          "value": "-848 pts",
-          "trend": "down"
-        },
-        {
-          "label": "ASX 200",
-          "value": "-3.2% (-$100B)",
+          "label": "Market Signal",
+          "value": "Wants off-ramp",
           "trend": "down"
         }
       ],
       "sources": [
         {
-          "name": "CNBC",
+          "name": "CNBC - Oil drops on Trump signal",
           "url": "https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html"
         },
         {
-          "name": "Bloomberg Oil",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9"
+          "name": "Business Insider - Brent drops to $90",
+          "url": "https://www.businessinsider.com/oil-price-shock-brent-wti-crude-100-threshold-iran-war-2026-3"
+        },
+        {
+          "name": "Investopedia - Stocks erase losses",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03092026-11921796"
+        },
+        {
+          "name": "USA Today - Oil odds",
+          "url": "https://eu.usatoday.com/story/news/2026/03/09/crude-oil-prices-today-iran-war-brent-crude-wti-oil-futures-predictions-polymarket-kalshi-trump-war/89063692007/"
         }
       ],
-      "analysis": "Oil past $100 = market consensus shifted from 'days' to 'extended disruption.' Gold dipping on margin-call liquidation (technical, not fundamental \u2014 expect recovery). Trump called oil surge 'small price to pay' but $6/gallon gas will test that. Qatar energy minister warned of $150/barrel. No ceasefire: Araghchi rejected it, Trump demands unconditional surrender."
+      "analysis": "Oil's $119\u2192$86 crash on a single Trump comment tells you everything: markets are desperate for an off-ramp and will aggressively price in any de-escalation signal. The $119 peak represents the worst-case Hormuz scenario; the $86 landing represents 'Trump might end this soon.' Until a formal ceasefire, expect continued volatility between these bounds. Gold recovering from margin-call lows."
     },
     {
       "id": "endgame",
       "title": "Conflict Endgame \u2014 Is Tehran Still Coherent?",
       "status": "amber",
-      "summary": "Tehran's command structure is fractured but not collapsed. Pezeshkian has no military control. New Supreme Leader chosen but unannounced. IRGC operating semi-autonomously. No ceasefire path visible \u2014 both sides publicly locked in.",
+      "summary": "Mojtaba Khamenei officially named Supreme Leader. Trump shifted to 'war is very complete' / 'close to end' \u2014 first de-escalation signal from the US. Oil crashed 20% on the comment. But no formal ceasefire framework exists yet.",
       "metrics": [
         {
           "label": "Ceasefire Talks",
-          "value": "None",
+          "value": "None formal",
           "trend": "stable"
+        },
+        {
+          "label": "Trump Rhetoric",
+          "value": "'War very complete'",
+          "trend": "down"
         },
         {
           "label": "Iran FM Position",
-          "value": "Rejected ceasefire",
-          "trend": "stable"
-        },
-        {
-          "label": "US Position",
-          "value": "Unconditional surrender",
+          "value": "Still rejects ceasefire",
           "trend": "stable"
         },
         {
           "label": "Tehran C2 Coherence",
           "value": "Fractured",
-          "trend": "down"
+          "trend": "stable"
         },
         {
           "label": "New Supreme Leader",
-          "value": "Chosen, unannounced",
-          "trend": "stable"
+          "value": "Mojtaba Khamenei (confirmed)",
+          "trend": "up"
         },
         {
-          "label": "Trump Timeline",
-          "value": "~4 weeks (Daily Mail)",
-          "trend": "stable"
+          "label": "Oil Price Response",
+          "value": "$119\u2192$86 crash",
+          "trend": "down"
         },
         {
           "label": "IRGC Autonomy Level",
           "value": "High (fire-at-will)",
-          "trend": "up"
+          "trend": "stable"
         },
         {
           "label": "US Staff Ordered Out of KSA",
-          "value": "Yes (Mar 9)",
-          "trend": "up"
+          "value": "Yes",
+          "trend": "stable"
         }
       ],
       "sources": [
         {
-          "name": "NBC - Araghchi rejects ceasefire",
-          "url": "https://www.nbcnews.com/world/iran/irans-foreign-minister-rejects-calls-ceasefire-continue-fighting-rcna262291"
+          "name": "India Today - Mojtaba Khamenei named",
+          "url": "https://www.indiatoday.in/world/story/us-israel-iran-war-updates-middle-east-crises-us-iran-israel-dubai-uae-donald-trump-netanyahu-lebanon-beirut-saudi-arabia-tehran-drones-missles-2879187-2026-03-09"
         },
         {
-          "name": "CNBC - US orders staff out of KSA",
+          "name": "Investopedia - Stocks erase losses on Trump",
+          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03092026-11921796"
+        },
+        {
+          "name": "Business Insider - Oil drops on Trump signal",
+          "url": "https://www.businessinsider.com/oil-price-shock-brent-wti-crude-100-threshold-iran-war-2026-3"
+        },
+        {
+          "name": "CNBC - Iran rules out ceasefire",
           "url": "https://www.cnbc.com/2026/03/09/iran-war-updates-oil-brent-wti-crude-110-gulf-gcc-uae-iraq-saudi-arabia-kurds.html"
-        },
-        {
-          "name": "Sky News - No room for ceasefire talks",
-          "url": "https://news.sky.com/story/iran-latest-trump-tehran-israel-strikes-us-drone-live-sky-news-13509565"
-        },
-        {
-          "name": "The National - Araghchi vows to fight",
-          "url": "https://www.thenationalnews.com/news/us/2026/03/08/irans-foreign-minister-rejects-unconditional-ceasefire-and-vows-to-fight-until-war-ends/"
-        },
-        {
-          "name": "Guardian - No coherent endgame",
-          "url": "https://www.theguardian.com/world/2026/mar/07/iran-us-israel-war-regime-change"
         }
       ],
-      "analysis": "The single most important variable: is Tehran's decision-making still centralized? Evidence says partially. Pezeshkian's apology + walkback revealed civilian leadership has zero military authority. IRGC admitted 'fire-at-will' orders = autonomous units. Assembly of Experts chose a successor but won't announce (Israel threatened to kill whoever is named). Iran FM says 'no room for ceasefire talks.' Trump says 4-week timetable. Both sides locked in \u2014 the most likely off-ramp is exhaustion (Iran runs low on launchers, US domestic oil-price pressure builds) rather than negotiation. Key signals that would change this: (1) Iran backchannel via Oman or China, (2) IRGC volume drops below 20/day sustained = capacity exhaustion, (3) Trump shifts rhetoric from 'surrender' to 'deal', (4) Tehran announces Supreme Leader publicly = regime stabilizing, (5) Hormuz mining or tanker seizure = massive escalation."
+      "analysis": "Two contradictory signals: (1) Trump's 'war is very complete' is the first US de-escalation rhetoric \u2014 markets responded instantly with oil crashing from $119 to $86. (2) But Iran FM still rejects ceasefire, IRGC announced it 'will decide end of war,' and Mojtaba Khamenei's appointment may harden Iran's position (he's IRGC-aligned, not a moderate). The gap between Trump declaring victory and Iran continuing to fight is the key tension. If Trump means it, a unilateral US ceasefire could emerge \u2014 but Israel may not comply. Watch for: Trump-Netanyahu call, any IRGC volume change, Mojtaba's first public statement."
     }
   ],
   "triggerList": {
@@ -531,8 +566,8 @@
     "green": [
       {
         "trigger": "Ceasefire announced",
-        "status": "red",
-        "note": "Both sides rejected"
+        "status": "amber",
+        "note": "Trump: 'war very complete' \u2014 first US de-escalation signal. No formal ceasefire yet."
       },
       {
         "trigger": "Intercept rate >95% sustained",
