@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-10T17:15:00+04:00",
-  "conflictDay": 11,
+  "lastUpdated": "2026-03-11T13:40:00+04:00",
+  "conflictDay": 12,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -98,7 +98,7 @@
       "id": "airport",
       "title": "Airport & Airspace Operations",
       "status": "amber",
-      "summary": "DXB operating with limited schedule. Emirates gradually returning to full ops. Etihad resuming additional services today. Air India operating 32 extra flights Mar 10. Multiple foreign carriers still suspended.",
+      "summary": "Two drones fell near DXB today (Mar 11) \u2014 4 injured. Air traffic 'operating as normal' per Dubai Media Office. Emirates gradually expanding. Third DXB-area incident of the war.",
       "metrics": [
         {
           "label": "Emirates Status",
@@ -111,9 +111,9 @@
           "trend": "up"
         },
         {
-          "label": "DXB Operational",
-          "value": "Limited schedule",
-          "trend": "stable"
+          "label": "DXB Drone Incidents",
+          "value": "3 (latest Mar 11)",
+          "trend": "up"
         },
         {
           "label": "Air India Extra Flights",
@@ -143,6 +143,10 @@
         {
           "name": "The National - Flight Updates",
           "url": "https://www.thenationalnews.com/travel/2026/03/08/middle-east-flight-updates-global-airlines-that-have-cancelled-suspended-and-added-routes/"
+        },
+        {
+          "name": "Dubai Media Office - DXB drones",
+          "url": "https://x.com/DXBMediaOffice/status/2031635783304753169"
         }
       ],
       "analysis": "Emirates and flydubai resumed limited schedules as of Mar 9 after temporary suspension on Mar 7. Emirates targeting 100% capacity 'in coming days.' However, multiple foreign carriers (Virgin Atlantic, flynas) have suspended Dubai routes. DXB airspace subject to intermittent closures during interception events. Muscat (MCT) remains the reliable alternative."
@@ -492,7 +496,7 @@
       {
         "trigger": "DXB directly struck",
         "status": "amber",
-        "note": "Debris incidents, not direct strikes"
+        "note": "3 drone/debris incidents near DXB. Latest Mar 11: 2 drones, 4 injured. Ops continue."
       },
       {
         "trigger": "Oman border closes",
