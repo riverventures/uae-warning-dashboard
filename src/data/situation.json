@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T06:00:00+04:00",
+  "lastUpdated": "2026-03-12T19:20:00+04:00",
   "conflictDay": 12,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
@@ -155,30 +155,44 @@
       "id": "ports",
       "title": "Ports & Cargo Continuity",
       "status": "amber",
-      "summary": "Hormuz traffic down 90% (MarineTraffic). CSIS confirms Iran 'largely successful' in shutting it down. No ships transited Mar 1-2. East coast ports (Khorfakkan/Fujairah) handling diverted cargo.",
+      "summary": "Dubai activated Green Corridor with Oman (Notice 04/2026, Mar 12). Two-way trade: international cargo via Omani ports \u2192 Al Wajajah \u2192 Hatta \u2192 Dubai. Bypasses Hormuz entirely. Combined with Fujairah/Khorfakkan reroute. Three alternative supply routes now active.",
       "metrics": [
         {
           "label": "Hormuz Traffic",
           "value": "Down 90%",
-          "trend": "down"
-        },
-        {
-          "label": "Jebel Ali Port",
-          "value": "Compromised",
           "trend": "stable"
         },
         {
-          "label": "Khorfakkan/Fujairah",
-          "value": "Active (contingency)",
-          "trend": "stable"
+          "label": "Alternative Routes Active",
+          "value": "3 (Fujairah, Khorfakkan, Oman)",
+          "trend": "up"
+        },
+        {
+          "label": "Dubai-Oman Green Corridor",
+          "value": "Active (Mar 12)",
+          "trend": "up"
+        },
+        {
+          "label": "Trade Direction",
+          "value": "Two-way (import + export)",
+          "trend": "up"
         },
         {
           "label": "Customs Notice 03/2026",
-          "value": "Active",
+          "value": "Active (UAE east coast)",
           "trend": "stable"
+        },
+        {
+          "label": "Customs Notice 04/2026",
+          "value": "Active (Oman bilateral)",
+          "trend": "up"
         }
       ],
       "sources": [
+        {
+          "name": "Dubai Customs Notice 04/2026",
+          "url": "https://www.dubaicustoms.gov.ae/en/PoliciesAndNotices/Notices/CN4_2026.pdf"
+        },
         {
           "name": "NBC - Hormuz traffic down 90%",
           "url": "https://www.nbcnews.com/business/economy/shipping-slows-crawl-strait-hormuz-threatening-snarl-international-tra-rcna261797"
@@ -186,13 +200,9 @@
         {
           "name": "CSIS - Hormuz analysis",
           "url": "https://www.csis.org/analysis/no-one-not-even-beijing-getting-through-strait-hormuz"
-        },
-        {
-          "name": "CBS - Hormuz explainer",
-          "url": "https://www.cbsnews.com/news/strait-of-hormuz-iran-oil-prices-us/"
         }
       ],
-      "analysis": "Dubai is executing a pre-planned contingency: ships dock on the Gulf of Oman side, containers truck overland ~130-150km to Jebel Ali. Adds cost and time but keeps goods flowing. Bloomberg confirms Hormuz is 'all but closed.' East coast bypass maintains supply chain at reduced capacity."
+      "analysis": "Dubai now has three alternative supply routes bypassing the Gulf entirely: (1) Fujairah/Khorfakkan east coast ports (Notice 03), (2) Oman bilateral Green Corridor via Hatta (Notice 04). Notice 04 is the bigger deal \u2014 it's a coordinated bilateral agreement with Oman enabling two-way international trade through Omani seaports. Ships dock at Oman's Indian Ocean ports (Sohar, Duqm, Salalah), truck overland to Dubai. Hormuz becomes irrelevant for Dubai's supply chain. This infrastructure may outlast the war."
     },
     {
       "id": "consumer",
