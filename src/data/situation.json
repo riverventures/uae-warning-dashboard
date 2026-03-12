@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T13:40:00+04:00",
+  "lastUpdated": "2026-03-12T06:00:00+04:00",
   "conflictDay": 12,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
@@ -8,88 +8,88 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "amber",
-      "summary": "Day 11: Drone intercept rate CRATERED to 74.3% (worst of war). 9 drones hit UAE territory. Ballistic held at 88.9% (1 hit sea, 0 hit land). Possible interceptor depletion for close-in defense systems.",
+      "summary": "Day 12: MOD stopped reporting daily intercept breakdowns \u2014 now just says 'engaged.' 7 cruise missiles deployed (vs 8 total in first 11 days). Cruise missiles are harder to intercept. Drone/ballistic volume low but weapons mix escalating.",
       "metrics": [
         {
-          "label": "Ballistic Intercept (Day 11)",
-          "value": "88.9% (0 hit land)",
-          "trend": "stable"
+          "label": "Daily Intercept Breakdown",
+          "value": "Not reported",
+          "trend": "unknown"
         },
         {
-          "label": "Drone Intercept (Day 11)",
-          "value": "74.3% \u26a0\ufe0f",
-          "trend": "down"
-        },
-        {
-          "label": "Drones Hit UAE (Day 11)",
-          "value": "9 (worst day)",
+          "label": "Cruise Missiles (Day 12)",
+          "value": "7 \u26a0\ufe0f",
           "trend": "up"
         },
         {
-          "label": "Cruise Missile Intercept",
-          "value": "100%",
-          "trend": "stable"
+          "label": "Cruise Total (cumulative)",
+          "value": "15",
+          "trend": "up"
         },
         {
           "label": "Total Ballistic (cumulative)",
-          "value": "262",
+          "value": "268",
           "trend": "up"
         },
         {
           "label": "Total Drones (cumulative)",
-          "value": "1,475",
+          "value": "1,514",
           "trend": "up"
+        },
+        {
+          "label": "MOD Reporting Transparency",
+          "value": "Reduced",
+          "trend": "down"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 11",
-          "url": "https://x.com/modgovae/status/2031357302004133965"
+          "name": "UAE MOD Day 12",
+          "url": "https://x.com/modgovae/status/2031837588127138255"
         }
       ],
-      "analysis": "Drone intercept rate dropped to 74.3% \u2014 the worst single day of the war. 9 drones fell within UAE territory (vs 1 yesterday). Ballistic intercept at 88.9% with the 1 miss hitting sea (0 hit land). The drone degradation could indicate: interceptor stock depletion for close-in systems (Pantsir, NASAMS), new Iranian drone variants or approach vectors, or sensor fatigue. Combined with 2 new deaths including first Emirati nationals, this is a material deterioration in the defense picture."
+      "analysis": "Two alarming signals: (1) Iran deployed 7 cruise missiles in one day \u2014 nearly doubling the entire war's cruise missile count. Cruise missiles fly low and fast, harder to intercept than drones or ballistic missiles. Iran's ~3,000 cruise missile stockpile has been the war's sleeping giant. (2) MOD stopped reporting daily intercept/hit breakdowns, switching to 'engaged.' This opacity could mean intercept rates are declining and they don't want to publish the numbers. No new deaths suggests today's salvos were handled, but the weapons mix escalation is significant."
     },
     {
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "amber",
-      "summary": "Day 11: 9 ballistic + 35 drones (44 total). Volume still well below early-war levels (~135 avg) but drone count nearly doubled from Day 10's 18. Attack volume low but lethality increasing.",
+      "summary": "Day 12: 6 ballistic + 39 drones + 7 cruise (52 total). Drone volume rising again (39 vs 18 two days ago). Cruise missile deployment is a major weapons mix escalation. Campaign NOT winding down despite Trump's rhetoric.",
       "metrics": [
         {
-          "label": "Day 11 Total",
-          "value": "44",
+          "label": "Day 12 Total",
+          "value": "52",
           "trend": "up"
         },
         {
-          "label": "Day 11 Drones",
-          "value": "35",
+          "label": "Day 12 Drones",
+          "value": "39",
           "trend": "up"
         },
         {
-          "label": "Day 11 Ballistic",
-          "value": "9",
+          "label": "Day 12 Ballistic",
+          "value": "6",
           "trend": "down"
         },
         {
-          "label": "Total Projectiles at UAE",
-          "value": "1,745",
+          "label": "Day 12 Cruise",
+          "value": "7 \u26a0\ufe0f",
           "trend": "up"
         },
         {
-          "label": "Cruise Missiles Used",
-          "value": "8 total",
-          "trend": "stable"
+          "label": "Total Projectiles at UAE",
+          "value": "1,797",
+          "trend": "up"
         },
         {
           "label": "Volume Trend",
-          "value": "Low but rising",
+          "value": "Rising + escalating mix",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 11",
-          "url": "https://x.com/modgovae/status/2031357302004133965"
+          "name": "UAE MOD Day 12",
+          "url": "https://x.com/modgovae/status/2031837588127138255"
         }
       ],
       "analysis": "Campaign is NOT de-escalating (+7.1% vs prior report). Ballistic missile plateau at 16-17/day broke the earlier decline trend. Iran's unused cruise missile stockpile (~3,000) remains the biggest wildcard. IRGC publicly stated intent to expand scale and intensity."
@@ -314,7 +314,7 @@
         },
         {
           "label": "Injuries",
-          "value": "122",
+          "value": "131 (+9)",
           "trend": "up"
         },
         {
@@ -480,8 +480,8 @@
       },
       {
         "trigger": "Cruise missile wave targeting UAE cities",
-        "status": "green",
-        "note": "Only 8 cruise missiles in 9 days"
+        "status": "red",
+        "note": "Day 12: 7 cruise missiles in single day. Cumulative now 15 (was 8 for first 11 days)."
       },
       {
         "trigger": "UAE desal/power plant hit",
@@ -656,6 +656,13 @@
       "ballistic": 9,
       "drones": 35,
       "cruise": 0
+    },
+    {
+      "day": 12,
+      "date": "2026-03-11",
+      "ballistic": 6,
+      "drones": 39,
+      "cruise": 7
     }
   ]
 }
