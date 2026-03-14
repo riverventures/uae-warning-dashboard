@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-13T16:30:00+04:00",
-  "conflictDay": 14,
+  "lastUpdated": "2026-03-14T15:15:00+04:00",
+  "conflictDay": 15,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "amber",
-      "summary": "Day 14: 7 ballistic + 27 drones engaged. No intercept breakdown reported (Day 4 of opacity). Deaths frozen at 6 for 4 days, injuries +10. Defense appears to be holding despite withheld data.",
+      "summary": "Day 15: 9 ballistic + 33 drones engaged. No intercept breakdown (Day 5 of opacity). Zero casualties today \u2014 defense holding. Deaths frozen at 6 for 4 days, injuries unchanged.",
       "metrics": [
         {
           "label": "Daily Intercept Breakdown",
@@ -43,8 +43,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 14",
-          "url": "https://x.com/modgovae/status/2032434058060570790"
+          "name": "UAE MOD Day 15",
+          "url": "https://x.com/modgovae/status/2032777505250357734"
         }
       ],
       "analysis": "Two alarming signals: (1) Iran deployed 7 cruise missiles in one day \u2014 nearly doubling the entire war's cruise missile count. Cruise missiles fly low and fast, harder to intercept than drones or ballistic missiles. Iran's ~3,000 cruise missile stockpile has been the war's sleeping giant. (2) MOD stopped reporting daily intercept/hit breakdowns, switching to 'engaged.' This opacity could mean intercept rates are declining and they don't want to publish the numbers. No new deaths suggests today's salvos were handled, but the weapons mix escalation is significant."
@@ -53,43 +53,43 @@
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "green",
-      "summary": "Day 14: 34 total (7 ballistic + 27 drones). Four consecutive days of low volume (~40/day avg vs ~150 early war). Iran's launch capacity at ~25% of peak. No cruise missiles for 2 days. War in terminal glide.",
+      "summary": "Day 15: 42 total. Six consecutive days of low volume (~38/day avg vs ~150 early war). No cruise missiles for 3 days. Zero casualties today. War winding down by exhaustion.",
       "metrics": [
         {
-          "label": "Day 14 Total",
-          "value": "34",
-          "trend": "down"
-        },
-        {
-          "label": "Day 14 Drones",
-          "value": "27",
+          "label": "Day 15 Total",
+          "value": "42",
           "trend": "stable"
         },
         {
-          "label": "Day 14 Ballistic",
-          "value": "7",
-          "trend": "down"
-        },
-        {
-          "label": "Day 14 Cruise",
-          "value": "0",
+          "label": "Day 15 Drones",
+          "value": "33",
           "trend": "stable"
         },
         {
-          "label": "5-Day Average",
-          "value": "~40/day",
+          "label": "Day 15 Ballistic",
+          "value": "9",
+          "trend": "stable"
+        },
+        {
+          "label": "Day 15 Cruise",
+          "value": "0 (3 days running)",
+          "trend": "stable"
+        },
+        {
+          "label": "6-Day Average",
+          "value": "~38/day",
           "trend": "down"
         },
         {
           "label": "Total Projectiles",
-          "value": "1,867",
+          "value": "1,909",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 14",
-          "url": "https://x.com/modgovae/status/2032434058060570790"
+          "name": "UAE MOD Day 15",
+          "url": "https://x.com/modgovae/status/2032777505250357734"
         }
       ],
       "analysis": "Campaign is NOT de-escalating (+7.1% vs prior report). Ballistic missile plateau at 16-17/day broke the earlier decline trend. Iran's unused cruise missile stockpile (~3,000) remains the biggest wildcard. IRGC publicly stated intent to expand scale and intensity."
@@ -305,7 +305,7 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "amber",
-      "summary": "6 dead (unchanged for 4 days). 141 injuries (28 nationalities, now including Swedish). No new fatalities despite continued attacks. Injury rate slowing proportional to volume decline.",
+      "summary": "6 dead (unchanged 4 days). 141 injuries (unchanged today). Zero casualties on Day 15. Casualty rate effectively zero at current attack volumes.",
       "metrics": [
         {
           "label": "Total Dead",
@@ -686,6 +686,13 @@
       "date": "2026-03-13",
       "ballistic": 7,
       "drones": 27,
+      "cruise": 0
+    },
+    {
+      "day": 15,
+      "date": "2026-03-14",
+      "ballistic": 9,
+      "drones": 33,
       "cruise": 0
     }
   ]
