@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T10:15:00+04:00",
+  "lastUpdated": "2026-03-15T16:20:00+04:00",
   "conflictDay": 16,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "green",
-      "summary": "Defense system holding. Zero casualties on Day 15. Deaths frozen at 6 for 4 days, injuries unchanged at 141. MOD stopped publishing intercept breakdowns since Day 12 but outcomes speak for themselves. Fujairah drone debris caused oil facility fire (AP) \u2014 successful intercept but debris risk remains.",
+      "summary": "Day 16: 4 ballistic + 6 drones engaged. Only 1 new injury. At 10 projectiles/day, defense system is barely being tested. Deaths unchanged at 6 (Day 5 of no new fatalities).",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -38,12 +38,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 15",
-          "url": "https://x.com/modgovae/status/2032777505250357734"
-        },
-        {
-          "name": "AP via Fortune - Fujairah debris fire",
-          "url": "https://fortune.com/2026/03/14/iran-threat-uae-ports-evacuation-orders-kharg-island-strike/"
+          "name": "UAE MOD Day 16",
+          "url": "https://x.com/modgovae/status/2033146337772863665"
         }
       ],
       "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
@@ -52,42 +48,43 @@
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "green",
-      "summary": "Six consecutive days of low volume (avg ~38/day vs ~150 early war). No cruise missiles for 3 days. Day 15: 42 total. Volume down 92% from peak (Jalal/Horizon Brief). Iran issued verbal warning about UAE ports but no escalation in actual attack volume followed.",
+      "summary": "Day 16: 10 total \u2014 LOWEST of the entire war. 4 ballistic + 6 drones. 97% decline from Day 2 peak. No cruise missiles for 4 days. Seven consecutive days of low/declining volume. Iran's launch capacity against UAE appears genuinely exhausted.",
       "metrics": [
         {
-          "label": "Day 15 Total",
-          "value": "42",
-          "trend": "stable"
+          "label": "Day 16 Total",
+          "value": "10 (war low)",
+          "trend": "down"
         },
         {
-          "label": "6-Day Average",
-          "value": "~38/day",
+          "label": "Day 16 Drones",
+          "value": "6",
+          "trend": "down"
+        },
+        {
+          "label": "Day 16 Ballistic",
+          "value": "4",
           "trend": "down"
         },
         {
           "label": "Decline from Peak",
-          "value": "92% (Jalal)",
+          "value": "97%",
           "trend": "down"
         },
         {
-          "label": "Cruise Missiles",
-          "value": "0 for 3 days",
-          "trend": "stable"
+          "label": "7-Day Average",
+          "value": "~33/day",
+          "trend": "down"
         },
         {
           "label": "Total Projectiles",
-          "value": "1,909",
+          "value": "1,919",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 15",
-          "url": "https://x.com/modgovae/status/2032777505250357734"
-        },
-        {
-          "name": "Jalal/Horizon Brief - 92% decline",
-          "url": "https://x.com/IbrahimJalalYE/status/2032597256210133413"
+          "name": "UAE MOD Day 16",
+          "url": "https://x.com/modgovae/status/2033146337772863665"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -303,16 +300,16 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "amber",
-      "summary": "6 dead (unchanged 4 days). 141 injuries (unchanged Day 15). Zero casualties on Day 15. Iran's port warning and Araghchi's claim that US attacked from UAE territory are concerning rhetoric (AP, Reuters, Al Jazeera), but actual civilian outcomes have improved steadily. All deaths remain from debris, not deliberate targeting. Iran FM said they will 'try to be careful not to attack populated areas.'",
+      "summary": "6 dead (unchanged 5 days). 142 injuries (+1). At Day 16's attack rate (10 total), civilian risk from the kinetic campaign is near zero. All deaths remain from debris. Iran's port rhetoric (Mar 14) did not produce any escalation in targeting.",
       "metrics": [
         {
           "label": "Deaths",
-          "value": "6 (unchanged 4 days)",
+          "value": "6 (unchanged 5 days)",
           "trend": "stable"
         },
         {
           "label": "Injuries",
-          "value": "141 (28 nationalities)",
+          "value": "142 (+1)",
           "trend": "stable"
         },
         {
@@ -681,6 +678,13 @@
       "date": "2026-03-14",
       "ballistic": 9,
       "drones": 33,
+      "cruise": 0
+    },
+    {
+      "day": 16,
+      "date": "2026-03-15",
+      "ballistic": 4,
+      "drones": 6,
       "cruise": 0
     }
   ]
