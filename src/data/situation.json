@@ -218,8 +218,8 @@
     {
       "id": "consumer",
       "title": "Retail Prices & Consumer Stress",
-      "status": "amber",
-      "summary": "Government maintains supplies are adequate. Bloomberg confirmed shelves stocked. Price gouging enforcement active (4,468 inspections, 449 warnings). Three alternative supply routes operational (Fujairah, Khorfakkan, Oman Green Corridor). UAE imports 90% of food but has systematically built Hormuz bypass infrastructure. Fresh food supply chains under strain but functioning.",
+      "status": "green",
+      "summary": "No visible scarcity. Bloomberg confirmed shelves stocked. Government enforcement active (4,468 inspections, 449 warnings). Three alternative supply routes operational bypassing Hormuz. No credible reports of shortages.",
       "metrics": [
         {
           "label": "Food Supply Status",
@@ -261,7 +261,7 @@
           "url": "https://www.dubaicustoms.gov.ae/en/PoliciesAndNotices/Notices/CN4_2026.pdf"
         }
       ],
-      "analysis": "Two weeks in, no mass shortages. Government response has been strong \u2014 enforcement, alternative routes, and consumer messaging all coordinated. The Oman Green Corridor specifically addresses food import vulnerability. Monitor fresh produce availability week-to-week but current evidence does not support shortage panic."
+      "analysis": "Green. Two weeks in, supply chain holding. Government response coordinated and aggressive on price gouging. Alternative routes (Fujairah, Khorfakkan, Oman Green Corridor) specifically built to maintain supply. Monitor if situation changes but current evidence = no stress."
     },
     {
       "id": "oman-border",
