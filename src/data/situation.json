@@ -266,18 +266,18 @@
     {
       "id": "oman-border",
       "title": "Oman Border & Muscat Viability",
-      "status": "amber",
-      "summary": "Mass exodus via Hatta border reported Mar 14. Border crossing conditions 'significantly' changed per Travel & Tour World. Previously ~1hr queue, now potentially much longer. Oman remains evacuation hub (NYT confirmed 600+). Oman Air regional cancellations through Mar 22 limits outbound options from Muscat. Multiple airlines operating via Muscat for evacuations.",
+      "status": "green",
+      "summary": "Oman remains primary evacuation hub. NYT confirmed 600+ evacuated by bus, 1hr border queue. Oman Air Sharjah\u2192Muscat bus link active. BA/QR/Emirates/Etihad joint evacuation via Muscat. Oman barely targeted (8 projectiles total). Border operational, route validated. Oman Air regional cancellations extended through Mar 22 limits outbound flight options from Muscat.",
       "metrics": [
         {
-          "label": "Hatta Border",
-          "value": "Mass exodus reported (Mar 14)",
-          "trend": "down"
+          "label": "Border Status",
+          "value": "Operational",
+          "trend": "stable"
         },
         {
           "label": "Wait Times",
-          "value": "Extended (was ~1hr)",
-          "trend": "down"
+          "value": "~1hr (NYT, as of Mar 9)",
+          "trend": "stable"
         },
         {
           "label": "Oman Projectiles",
@@ -302,19 +302,15 @@
       ],
       "sources": [
         {
-          "name": "Travel & Tour World - Mass exodus",
-          "url": "https://www.travelandtourworld.com/news/article/oman-witnesses-mass-travel-escape-from-uae-via-hatta-border-following-irans-continuous-strikes-near-jebel-ali-port-al-dhafra-burj-al-arab-dubai-abu-dhabi-and-more-forcing-travel-chaos-ami/"
-        },
-        {
           "name": "NYT - Oman evacuation hub",
           "url": "https://www.nytimes.com/2026/03/09/world/middleeast/iran-war-oman-evacuations.html"
         },
         {
-          "name": "Newland Chase - Oman Air",
+          "name": "Newland Chase - Travel advisory",
           "url": "https://newlandchase.com/crisis-advisory-faq/"
         }
       ],
-      "analysis": "UPGRADED TO AMBER. Iran's port evacuation warning triggered a new wave of departures via Hatta. Border conditions deteriorating from the surge. If you're planning to go, go soon \u2014 wait times will get worse as panic builds. Oman itself remains safe (only 8 projectiles total, near-zero recently). But Oman Air cancellations through Mar 22 limit air options from Muscat. Recommend checking Oman Air, Air India, Emirates availability ex-MCT."
+      "analysis": "Oman route remains viable and is the primary evacuation corridor. No credible reports of border closure or major delays beyond the ~1hr queue NYT documented on Mar 9. Oman Air cancellations limit flight options from Muscat but other carriers operating. Route: Dubai \u2192 Al Ain \u2192 Buraimi/Hili border \u2192 Muscat."
     },
     {
       "id": "civilian-escalation",
