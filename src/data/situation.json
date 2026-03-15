@@ -7,8 +7,8 @@
     {
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
-      "status": "amber",
-      "summary": "Day 15: MOD reported 9 ballistic + 33 drones 'engaged' \u2014 no intercept breakdown (Day 5 of opacity). Zero casualties on Day 15. However, Fujairah port oil facility fire from intercepted drone debris (Mar 14) \u2014 defense working but debris still causing damage. Iran's port evacuation warning raises stakes.",
+      "status": "green",
+      "summary": "Defense system holding. Zero casualties on Day 15. Deaths frozen at 6 for 4 days, injuries unchanged at 141. MOD stopped publishing intercept breakdowns since Day 12 but outcomes speak for themselves. Fujairah drone debris caused oil facility fire (AP) \u2014 successful intercept but debris risk remains.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -42,17 +42,17 @@
           "url": "https://x.com/modgovae/status/2032777505250357734"
         },
         {
-          "name": "Fortune - Fujairah fire",
+          "name": "AP via Fortune - Fujairah debris fire",
           "url": "https://fortune.com/2026/03/14/iran-threat-uae-ports-evacuation-orders-kharg-island-strike/"
         }
       ],
-      "analysis": "Defense continues to hold \u2014 zero new deaths for 4 days despite continued attacks. But Fujairah debris fire at oil facility shows even successful intercepts create ground-level risk. MOD opacity on intercept rates entering second week."
+      "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
     },
     {
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
-      "status": "amber",
-      "summary": "Volume remains low (~38/day avg, Days 10-15) but Iran just threatened 3 UAE ports by name and Fujairah already hit by debris fire. Low volume \u2260 low risk. Iran claims US launched Kharg strikes from UAE territory (RAK + 'near Dubai'), using that as justification for port targeting. KSA attack volume trending UP while UAE trends down \u2014 possible reallocation, not exhaustion.",
+      "status": "green",
+      "summary": "Six consecutive days of low volume (avg ~38/day vs ~150 early war). No cruise missiles for 3 days. Day 15: 42 total. Volume down 92% from peak (Jalal/Horizon Brief). Iran issued verbal warning about UAE ports but no escalation in actual attack volume followed.",
       "metrics": [
         {
           "label": "Day 15 Total",
@@ -65,24 +65,19 @@
           "trend": "down"
         },
         {
-          "label": "Iran Port Warning",
-          "value": "3 ports named (Jebel Ali, Khalifa, Fujairah)",
+          "label": "Decline from Peak",
+          "value": "92% (Jalal)",
           "trend": "down"
         },
         {
-          "label": "KSA Volume Trend",
-          "value": "Increasing (+25%)",
-          "trend": "up"
+          "label": "Cruise Missiles",
+          "value": "0 for 3 days",
+          "trend": "stable"
         },
         {
           "label": "Total Projectiles",
           "value": "1,909",
           "trend": "up"
-        },
-        {
-          "label": "Trump: Iran capacity",
-          "value": "'Within 2 days, totally decimated'",
-          "trend": "down"
         }
       ],
       "sources": [
@@ -91,15 +86,11 @@
           "url": "https://x.com/modgovae/status/2032777505250357734"
         },
         {
-          "name": "Al Jazeera - Iran port warning",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/iran-warns-uae-ports-and-american-hideouts-are-targets"
-        },
-        {
-          "name": "Jalal - 92% volume decline",
+          "name": "Jalal/Horizon Brief - 92% decline",
           "url": "https://x.com/IbrahimJalalYE/status/2032597256210133413"
         }
       ],
-      "analysis": "UPGRADED TO AMBER. Volume collapse is real but Iran's explicit naming of 3 UAE ports as targets is a qualitative escalation that changes the risk profile. The low-volume 'nuisance phase' could end abruptly if Iran retaliates for Kharg Island. Araghchi's claim that US attacked from UAE territory provides Iran a narrative justification for escalating against UAE directly."
+      "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
     },
     {
       "id": "airport",
@@ -157,8 +148,8 @@
     {
       "id": "ports",
       "title": "Ports & Cargo Continuity",
-      "status": "red",
-      "summary": "CRITICAL: Iran issued evacuation warning for Jebel Ali, Khalifa, and Fujairah ports (Mar 14). Claims US attacked Kharg Island from UAE territory. Fujairah oil facility fire from drone debris confirmed (AP). Three alternative supply routes active (Fujairah/Khorfakkan reroute, Oman Green Corridor), but Iran now explicitly targeting ports. Hormuz still 90% shut but cracks appearing \u2014 Iran allowed 2 Indian LPG carriers + 1 Saudi tanker through. Greek shipowners braving passage for profit.",
+      "status": "amber",
+      "summary": "Iran issued evacuation warning for Jebel Ali, Khalifa, and Fujairah ports (Mar 14) \u2014 reported by AP, Reuters, Al Jazeera. Araghchi claims US attacked Kharg from UAE territory. No actual port strikes followed the warning. Fujairah oil facility fire was from intercepted drone debris (AP), not a targeted attack. Three alternative supply routes active. Hormuz still largely shut but selective transits occurring (2 Indian LPG carriers, 1 Saudi tanker allowed through). France organizing multinational naval escort.",
       "metrics": [
         {
           "label": "Iran Port Warning",
@@ -193,27 +184,23 @@
       ],
       "sources": [
         {
-          "name": "Fortune - Iran port threat",
+          "name": "AP via Fortune - Port warning + Fujairah fire",
           "url": "https://fortune.com/2026/03/14/iran-threat-uae-ports-evacuation-orders-kharg-island-strike/"
         },
         {
-          "name": "Al Jazeera - Indian ships transit",
-          "url": "https://www.aljazeera.com/news/2026/3/14/two-indian-ships-cross-strait-of-hormuz-as-iran-says-it-allowed-passage"
+          "name": "Al Jazeera - Iran port warning",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/iran-warns-uae-ports-and-american-hideouts-are-targets"
         },
         {
           "name": "Reuters - Ships braving Hormuz",
           "url": "https://www.reuters.com/business/energy/lured-by-profits-some-shipowners-brave-mines-missiles-sneak-oil-past-iran-2026-03-13/"
         },
         {
-          "name": "Reuters - Trump Hormuz escort",
+          "name": "Reuters - Naval escort plans",
           "url": "https://www.reuters.com/world/asia-pacific/trump-says-many-countries-will-send-warships-keep-strait-hormuz-open-2026-03-14/"
-        },
-        {
-          "name": "Dubai Customs Notice 04/2026",
-          "url": "https://www.dubaicustoms.gov.ae/en/PoliciesAndNotices/Notices/CN4_2026.pdf"
         }
       ],
-      "analysis": "UPGRADED TO RED. Iran naming 3 UAE ports as targets is a first \u2014 previously claimed to only target US assets. Araghchi explicitly said US attacked from RAK and 'near Dubai,' providing Iran narrative cover for direct port strikes. Fujairah fire (drone debris) already demonstrates the risk. The alternative supply routes via Oman remain critical. Hormuz showing first cracks \u2014 selective transit being allowed for India/Turkey, but no systematic reopening. France + allies planning naval escort convoy system."
+      "analysis": "Iran's port warning is real and reported by tier-1 sources, but rhetoric hasn't translated to kinetic action against ports. The Fujairah fire was debris from a successful intercept \u2014 not deliberate targeting. Alternative supply routes (Fujairah, Khorfakkan, Oman Green Corridor) mitigate port disruption risk. Hormuz showing first cracks with selective transits. Watch for any deliberate port targeting \u2014 that would be a genuine red trigger."
     },
     {
       "id": "consumer",
@@ -315,65 +302,52 @@
     {
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
-      "status": "red",
-      "summary": "CRITICAL ESCALATION: Iran issued evacuation warning for 3 UAE ports \u2014 first time openly threatening non-US assets. Araghchi claims US attacked Kharg from UAE territory ('RAK and near Dubai'). Fujairah port oil facility fire from drone debris (AP confirmed). Iran says it will 'try to be careful not to attack populated areas' \u2014 hedged language, not a guarantee. Trump threatens to 'wipe out' Kharg oil infrastructure, which Iran says would trigger 'new level of retaliation.'",
+      "status": "amber",
+      "summary": "6 dead (unchanged 4 days). 141 injuries (unchanged Day 15). Zero casualties on Day 15. Iran's port warning and Araghchi's claim that US attacked from UAE territory are concerning rhetoric (AP, Reuters, Al Jazeera), but actual civilian outcomes have improved steadily. All deaths remain from debris, not deliberate targeting. Iran FM said they will 'try to be careful not to attack populated areas.'",
       "metrics": [
         {
-          "label": "Iran Port Warning",
-          "value": "Jebel Ali + Khalifa + Fujairah",
-          "trend": "down"
-        },
-        {
-          "label": "Fujairah Oil Fire",
-          "value": "Drone debris (Mar 14)",
-          "trend": "down"
-        },
-        {
-          "label": "UAE Civilian Deaths",
-          "value": "6 (unchanged)",
+          "label": "Deaths",
+          "value": "6 (unchanged 4 days)",
           "trend": "stable"
         },
         {
-          "label": "UAE Injuries",
+          "label": "Injuries",
           "value": "141 (28 nationalities)",
           "trend": "stable"
         },
         {
-          "label": "Araghchi Statement",
-          "value": "'US attacked from UAE territory'",
-          "trend": "down"
+          "label": "Day 15 Casualties",
+          "value": "0",
+          "trend": "stable"
         },
         {
-          "label": "Iran Promise",
-          "value": "'Try to be careful' (not guarantee)",
-          "trend": "down"
+          "label": "Iran Port Warning",
+          "value": "Verbal (no kinetic follow-through)",
+          "trend": "stable"
+        },
+        {
+          "label": "Cause of Deaths",
+          "value": "All debris (not deliberate)",
+          "trend": "stable"
         }
       ],
       "sources": [
         {
-          "name": "Fortune - Iran port threat",
+          "name": "UAE MOD Day 15",
+          "url": "https://x.com/modgovae/status/2032777505250357734"
+        },
+        {
+          "name": "AP via Fortune - Araghchi statement",
           "url": "https://fortune.com/2026/03/14/iran-threat-uae-ports-evacuation-orders-kharg-island-strike/"
-        },
-        {
-          "name": "WANA - Evacuation warning",
-          "url": "https://wanaen.com/iran-issues-urgent-evacuation-warning-to-uae-residents/"
-        },
-        {
-          "name": "Al Jazeera - Iran warns ports",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/iran-warns-uae-ports-and-american-hideouts-are-targets"
-        },
-        {
-          "name": "Middle East Monitor",
-          "url": "https://www.middleeastmonitor.com/20260314-iranian-armed-forces-call-for-evacuation-of-major-ports-in-uae-amid-rising-tensions/"
         }
       ],
-      "analysis": "THIS IS THE BIGGEST ESCALATION SINCE DAY 1. Iran previously maintained the fiction that it was only targeting US assets in GCC states. Naming 3 UAE ports and issuing civilian evacuation warnings crosses a new line. Araghchi's claim that the US attacked from UAE territory gives Iran narrative justification for treating UAE infrastructure as legitimate military targets. The hedged language ('try to be careful') is NOT reassuring \u2014 it's diplomatic cover for potential strikes. Combined with Trump threatening Kharg oil infrastructure (which Iran says triggers 'new level of retaliation'), the escalation spiral is re-accelerating even as attack volumes stay low."
+      "analysis": "Civilian risk is lower than it was in Week 1. Deaths have plateaued, attack volume is down 92%, and Iran has not deliberately targeted populated areas. The port warning rhetoric is real but hasn't translated into action. Key risk remains debris from intercepts during any volume spike."
     },
     {
       "id": "market-duration",
       "title": "Market-Implied Conflict Duration",
       "status": "red",
-      "summary": "Oil surging despite historic intervention. Brent $103, WTI $99 (up 17% SINCE IEA's 400M barrel release). IEA release = largest in 50-year history but 'nowhere near enough' per market. US releasing 172M barrels over 120 days (1.4M bpd = only 15% of lost Hormuz supply). Gold retreated to $5,032 from $5,420 record. Trump eased Russian oil sanctions to mitigate prices. Rystad: 2-month war \u2192 $110 Brent; 4-month war \u2192 $135 Brent by June.",
+      "summary": "Brent $103, WTI $99. Oil up 17% since IEA announced largest-ever 400M barrel stockpile release. US releasing 172M barrels over 120 days (1.4M bpd \u2014 covers ~15% of Hormuz loss). Gold retreated to $5,032 from $5,420 peak. Trump eased Russian oil sanctions to offset prices. Rystad forecast: $110 Brent at 2 months, $135 at 4 months.",
       "metrics": [
         {
           "label": "Brent Crude",
@@ -417,25 +391,21 @@
           "url": "https://www.cnbc.com/2026/03/14/iran-war-iea-oil-stockpile-spr-strait-hormuz.html"
         },
         {
-          "name": "Oil Price API",
+          "name": "Oil Price API - Live prices",
           "url": "https://www.oilpriceapi.com/oil-prices-today"
         },
         {
-          "name": "Reuters - Trump Hormuz ships",
+          "name": "Reuters - Hormuz escort plans",
           "url": "https://www.reuters.com/world/asia-pacific/trump-says-many-countries-will-send-warships-keep-strait-hormuz-open-2026-03-14/"
-        },
-        {
-          "name": "NYT - Oil +40% since war",
-          "url": "https://www.nytimes.com/2026/03/12/business/oil-stock-gas-markets-iran.html"
         }
       ],
-      "analysis": "Market is saying the war is NOT ending soon. If the IEA's largest-ever stockpile release can't prevent oil from surging 17%, the market is pricing in a prolonged Hormuz closure. The SPR math is damning: 1.4M bpd release vs 9M bpd lost = covers only 15%. Russia sanctions easing is a desperation move. Gold retreating from $5,420 to $5,032 suggests some war premium unwinding, but oil tells the real story."
+      "analysis": "Oil markets are pricing in a prolonged conflict. The IEA SPR release \u2014 largest in 50 years \u2014 hasn't capped prices because the Hormuz shortfall (~9M bpd) dwarfs the release rate (~1.4M bpd). This is the strongest objective indicator that markets expect the war to continue. Gold retreating suggests some war premium unwinding but oil tells the real story."
     },
     {
       "id": "endgame",
       "title": "Conflict Endgame \u2014 Is Tehran Still Coherent?",
       "status": "red",
-      "summary": "CEASEFIRE DEAD FOR NOW. Reuters exclusive: Trump rejected allied mediation efforts. NBC: Trump says 'Iran wants a deal, terms aren't good enough yet.' Demands complete nuclear abandonment. Iran FM: rejected ceasefire 'until US stops.' Mojtaba Khamenei's first statement (written only, never appeared in person): Hormuz stays closed, keep fighting. Trump questions whether Khamenei is 'even alive.' US struck Kharg Island military targets, threatens oil infrastructure next. 2,500 Marines + USS Tripoli deploying. Israel hit 200+ targets in 24hrs. UN Security Council resolution demands Iran stop GCC attacks.",
+      "summary": "No ceasefire path visible. Reuters: Trump rejected allied mediation efforts. NBC interview: Trump says 'Iran wants a deal, terms not good enough yet' \u2014 demands complete nuclear abandonment. Iran rejects talks while strikes continue. Mojtaba Khamenei's first statement (written only): Hormuz stays closed, keep fighting. Trump questions if Khamenei is 'even alive.' US struck Kharg Island military targets, threatens oil infrastructure next. 2,500 Marines + USS Tripoli deploying.",
       "metrics": [
         {
           "label": "Ceasefire Status",
@@ -480,7 +450,7 @@
       ],
       "sources": [
         {
-          "name": "Reuters - Trump rejects ceasefire",
+          "name": "Reuters - Trump rejects ceasefire talks",
           "url": "https://www.reuters.com/world/middle-east/trump-rejects-efforts-launch-iran-ceasefire-talks-sources-say-2026-03-14/"
         },
         {
@@ -494,13 +464,9 @@
         {
           "name": "WaPo - Kharg Island strikes",
           "url": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/"
-        },
-        {
-          "name": "UK Parliament - Briefing",
-          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
         }
       ],
-      "analysis": "The endgame just got further away. Both sides have explicitly rejected ceasefire. Trump wants complete nuclear surrender. Iran says no talks while bombs fall. Mojtaba Khamenei's written-only statement (never appeared in person \u2014 Trump questions if he's alive) vowed to keep Hormuz closed. The Kharg Island strike is the biggest single escalation of the war: US put a marker on Iran's economic jugular without cutting it, essentially saying 'we can kill your oil revenue whenever we want.' If Trump follows through on the oil infrastructure threat, Iran's parliament speaker warned of 'a new level of retaliation.' Both sides are escalating, not de-escalating. The war is not ending in the next week."
+      "analysis": "Both sides have explicitly rejected ceasefire through tier-1 outlets. This is not inference \u2014 it's direct statements. The gap between positions is wide: Trump wants nuclear surrender, Iran wants strikes to stop first. No mediator has bridged this. Kharg Island strike puts Iran's economic lifeline at risk, which hardens Iran's position rather than softening it. The war is not ending this week."
     }
   ],
   "triggerList": {
