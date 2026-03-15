@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-14T15:15:00+04:00",
-  "conflictDay": 15,
+  "lastUpdated": "2026-03-15T10:15:00+04:00",
+  "conflictDay": 16,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,71 +8,55 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "amber",
-      "summary": "Day 15: 9 ballistic + 33 drones engaged. No intercept breakdown (Day 5 of opacity). Zero casualties today \u2014 defense holding. Deaths frozen at 6 for 4 days, injuries unchanged.",
+      "summary": "Day 15: MOD reported 9 ballistic + 33 drones 'engaged' \u2014 no intercept breakdown (Day 5 of opacity). Zero casualties on Day 15. However, Fujairah port oil facility fire from intercepted drone debris (Mar 14) \u2014 defense working but debris still causing damage. Iran's port evacuation warning raises stakes.",
       "metrics": [
         {
-          "label": "Daily Intercept Breakdown",
-          "value": "Not reported (Day 3)",
+          "label": "Intercept Breakdown",
+          "value": "Not reported (5 days)",
           "trend": "unknown"
         },
         {
-          "label": "Cruise Missiles (Day 13)",
-          "value": "0 (paused)",
+          "label": "Fujairah Debris Fire",
+          "value": "Oil facility hit (Mar 14)",
           "trend": "down"
         },
         {
-          "label": "Cruise Total (cumulative)",
-          "value": "15",
-          "trend": "up"
+          "label": "Deaths (Cumulative)",
+          "value": "6 (unchanged 4 days)",
+          "trend": "stable"
         },
         {
-          "label": "Total Ballistic (cumulative)",
-          "value": "268",
-          "trend": "up"
+          "label": "Injuries (Cumulative)",
+          "value": "141 (28 nationalities)",
+          "trend": "stable"
         },
         {
-          "label": "Total Drones (cumulative)",
-          "value": "1,514",
+          "label": "US Service Deaths",
+          "value": "13 (incl. 6 in Iraq crash)",
           "trend": "up"
-        },
-        {
-          "label": "MOD Reporting Transparency",
-          "value": "Reduced",
-          "trend": "down"
         }
       ],
       "sources": [
         {
           "name": "UAE MOD Day 15",
           "url": "https://x.com/modgovae/status/2032777505250357734"
+        },
+        {
+          "name": "Fortune - Fujairah fire",
+          "url": "https://fortune.com/2026/03/14/iran-threat-uae-ports-evacuation-orders-kharg-island-strike/"
         }
       ],
-      "analysis": "Two alarming signals: (1) Iran deployed 7 cruise missiles in one day \u2014 nearly doubling the entire war's cruise missile count. Cruise missiles fly low and fast, harder to intercept than drones or ballistic missiles. Iran's ~3,000 cruise missile stockpile has been the war's sleeping giant. (2) MOD stopped reporting daily intercept/hit breakdowns, switching to 'engaged.' This opacity could mean intercept rates are declining and they don't want to publish the numbers. No new deaths suggests today's salvos were handled, but the weapons mix escalation is significant."
+      "analysis": "Defense continues to hold \u2014 zero new deaths for 4 days despite continued attacks. But Fujairah debris fire at oil facility shows even successful intercepts create ground-level risk. MOD opacity on intercept rates entering second week."
     },
     {
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
-      "status": "green",
-      "summary": "Day 15: 42 total. Six consecutive days of low volume (~38/day avg vs ~150 early war). No cruise missiles for 3 days. Zero casualties today. War winding down by exhaustion.",
+      "status": "amber",
+      "summary": "Volume remains low (~38/day avg, Days 10-15) but Iran just threatened 3 UAE ports by name and Fujairah already hit by debris fire. Low volume \u2260 low risk. Iran claims US launched Kharg strikes from UAE territory (RAK + 'near Dubai'), using that as justification for port targeting. KSA attack volume trending UP while UAE trends down \u2014 possible reallocation, not exhaustion.",
       "metrics": [
         {
           "label": "Day 15 Total",
           "value": "42",
-          "trend": "stable"
-        },
-        {
-          "label": "Day 15 Drones",
-          "value": "33",
-          "trend": "stable"
-        },
-        {
-          "label": "Day 15 Ballistic",
-          "value": "9",
-          "trend": "stable"
-        },
-        {
-          "label": "Day 15 Cruise",
-          "value": "0 (3 days running)",
           "trend": "stable"
         },
         {
@@ -81,404 +65,451 @@
           "trend": "down"
         },
         {
+          "label": "Iran Port Warning",
+          "value": "3 ports named (Jebel Ali, Khalifa, Fujairah)",
+          "trend": "down"
+        },
+        {
+          "label": "KSA Volume Trend",
+          "value": "Increasing (+25%)",
+          "trend": "up"
+        },
+        {
           "label": "Total Projectiles",
           "value": "1,909",
           "trend": "up"
+        },
+        {
+          "label": "Trump: Iran capacity",
+          "value": "'Within 2 days, totally decimated'",
+          "trend": "down"
         }
       ],
       "sources": [
         {
           "name": "UAE MOD Day 15",
           "url": "https://x.com/modgovae/status/2032777505250357734"
+        },
+        {
+          "name": "Al Jazeera - Iran port warning",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/iran-warns-uae-ports-and-american-hideouts-are-targets"
+        },
+        {
+          "name": "Jalal - 92% volume decline",
+          "url": "https://x.com/IbrahimJalalYE/status/2032597256210133413"
         }
       ],
-      "analysis": "Campaign is NOT de-escalating (+7.1% vs prior report). Ballistic missile plateau at 16-17/day broke the earlier decline trend. Iran's unused cruise missile stockpile (~3,000) remains the biggest wildcard. IRGC publicly stated intent to expand scale and intensity."
+      "analysis": "UPGRADED TO AMBER. Volume collapse is real but Iran's explicit naming of 3 UAE ports as targets is a qualitative escalation that changes the risk profile. The low-volume 'nuisance phase' could end abruptly if Iran retaliates for Kharg Island. Araghchi's claim that US attacked from UAE territory provides Iran a narrative justification for escalating against UAE directly."
     },
     {
       "id": "airport",
       "title": "Airport & Airspace Operations",
       "status": "amber",
-      "summary": "Two drones fell near DXB today (Mar 11) \u2014 4 injured. Air traffic 'operating as normal' per Dubai Media Office. Emirates gradually expanding. Third DXB-area incident of the war.",
+      "summary": "Emirates operating reduced schedule to 110+ destinations. Mar 14: 143 Emirates + 56 Flydubai flights. Mar 15: 156 Emirates + 64 Flydubai planned. Reduced operations extended through Mar 28. Air Canada canceled ALL Dubai flights until May. Oman Air regional cancellations through Mar 22. Air India running 36+ ad-hoc repatriation flights. DXB operational but not normal.",
       "metrics": [
         {
-          "label": "Emirates Status",
-          "value": "Limited, expanding",
+          "label": "Emirates (Mar 15)",
+          "value": "156 flights planned",
           "trend": "up"
         },
         {
-          "label": "Etihad Status",
-          "value": "Resuming additional services",
+          "label": "Flydubai (Mar 15)",
+          "value": "64 flights planned",
           "trend": "up"
         },
         {
-          "label": "DXB Drone Incidents",
-          "value": "3 (latest Mar 11)",
+          "label": "Emirates Destinations",
+          "value": "110+",
           "trend": "up"
         },
         {
-          "label": "Air India Extra Flights",
-          "value": "32 (Mar 10)",
+          "label": "Reduced Ops Extended",
+          "value": "Through Mar 28",
+          "trend": "down"
+        },
+        {
+          "label": "Air Canada",
+          "value": "Canceled until May",
+          "trend": "down"
+        },
+        {
+          "label": "Repatriation Flights",
+          "value": "Air India 36+ ad-hoc",
           "trend": "up"
-        },
-        {
-          "label": "Virgin Atlantic",
-          "value": "Suspended until Mar 28",
-          "trend": "stable"
-        },
-        {
-          "label": "Muscat Airport (MCT)",
-          "value": "Fully operational",
-          "trend": "stable"
         }
       ],
       "sources": [
         {
-          "name": "Time Out Dubai - DXB Resume",
-          "url": "https://www.timeoutdubai.com/news/dubai-airports-resume-limited-schedule-march-2026"
+          "name": "LoyaltyLobby - Emirates/Flydubai flights",
+          "url": "https://loyaltylobby.com/2026/03/14/emirates-flydubai-operations-stable-205-flights-for-saturday-212-for-saturday-march-14-15/"
         },
         {
-          "name": "Euronews - Emirates aiming for 100%",
-          "url": "https://www.euronews.com/travel/2026/03/08/middle-east-flights-emirates-aiming-to-be-back-at-100-capacity-in-coming-days"
+          "name": "TravelPirates - DXB status",
+          "url": "https://www.travelpirates.com/captains-log/dubai-airport-march-14-2026-flights-update-emirates"
         },
         {
-          "name": "The National - Flight Updates",
-          "url": "https://www.thenationalnews.com/travel/2026/03/08/middle-east-flight-updates-global-airlines-that-have-cancelled-suspended-and-added-routes/"
-        },
-        {
-          "name": "Dubai Media Office - DXB drones",
-          "url": "https://x.com/DXBMediaOffice/status/2031635783304753169"
+          "name": "Flightradar24 - Aviation updates",
+          "url": "https://www.flightradar24.com/blog/live/israel-launches-pre-emptive-strikes-on-iran-airspace-closures-going-into-place/"
         }
       ],
-      "analysis": "Emirates and flydubai resumed limited schedules as of Mar 9 after temporary suspension on Mar 7. Emirates targeting 100% capacity 'in coming days.' However, multiple foreign carriers (Virgin Atlantic, flynas) have suspended Dubai routes. DXB airspace subject to intermittent closures during interception events. Muscat (MCT) remains the reliable alternative."
+      "analysis": "Gradual improvement \u2014 Emirates up from near-zero to 156 flights/day. But reduced ops extended through Mar 28 signals airlines don't expect normalization soon. Air Canada's May cancellation is a market signal about expected conflict duration."
     },
     {
       "id": "ports",
       "title": "Ports & Cargo Continuity",
-      "status": "amber",
-      "summary": "Dubai activated Green Corridor with Oman (Notice 04/2026, Mar 12). Two-way trade: international cargo via Omani ports \u2192 Al Wajajah \u2192 Hatta \u2192 Dubai. Bypasses Hormuz entirely. Combined with Fujairah/Khorfakkan reroute. Three alternative supply routes now active.",
+      "status": "red",
+      "summary": "CRITICAL: Iran issued evacuation warning for Jebel Ali, Khalifa, and Fujairah ports (Mar 14). Claims US attacked Kharg Island from UAE territory. Fujairah oil facility fire from drone debris confirmed (AP). Three alternative supply routes active (Fujairah/Khorfakkan reroute, Oman Green Corridor), but Iran now explicitly targeting ports. Hormuz still 90% shut but cracks appearing \u2014 Iran allowed 2 Indian LPG carriers + 1 Saudi tanker through. Greek shipowners braving passage for profit.",
       "metrics": [
         {
+          "label": "Iran Port Warning",
+          "value": "3 ports named as targets",
+          "trend": "down"
+        },
+        {
+          "label": "Fujairah Fire",
+          "value": "Oil facility debris fire (Mar 14)",
+          "trend": "down"
+        },
+        {
           "label": "Hormuz Traffic",
-          "value": "Down 90%",
+          "value": "Down ~90% but some transits",
+          "trend": "up"
+        },
+        {
+          "label": "Ships Transiting",
+          "value": "2 Indian + 1 Saudi + Greek owners",
+          "trend": "up"
+        },
+        {
+          "label": "Alternative Routes",
+          "value": "3 active (bypassing Hormuz)",
           "trend": "stable"
         },
         {
-          "label": "Alternative Routes Active",
-          "value": "3 (Fujairah, Khorfakkan, Oman)",
-          "trend": "up"
-        },
-        {
-          "label": "Dubai-Oman Green Corridor",
-          "value": "Active (Mar 12)",
-          "trend": "up"
-        },
-        {
-          "label": "Trade Direction",
-          "value": "Two-way (import + export)",
-          "trend": "up"
-        },
-        {
-          "label": "Customs Notice 03/2026",
-          "value": "Active (UAE east coast)",
-          "trend": "stable"
-        },
-        {
-          "label": "Customs Notice 04/2026",
-          "value": "Active (Oman bilateral)",
+          "label": "Naval Escort Plan",
+          "value": "France organizing multinational",
           "trend": "up"
         }
       ],
       "sources": [
         {
+          "name": "Fortune - Iran port threat",
+          "url": "https://fortune.com/2026/03/14/iran-threat-uae-ports-evacuation-orders-kharg-island-strike/"
+        },
+        {
+          "name": "Al Jazeera - Indian ships transit",
+          "url": "https://www.aljazeera.com/news/2026/3/14/two-indian-ships-cross-strait-of-hormuz-as-iran-says-it-allowed-passage"
+        },
+        {
+          "name": "Reuters - Ships braving Hormuz",
+          "url": "https://www.reuters.com/business/energy/lured-by-profits-some-shipowners-brave-mines-missiles-sneak-oil-past-iran-2026-03-13/"
+        },
+        {
+          "name": "Reuters - Trump Hormuz escort",
+          "url": "https://www.reuters.com/world/asia-pacific/trump-says-many-countries-will-send-warships-keep-strait-hormuz-open-2026-03-14/"
+        },
+        {
           "name": "Dubai Customs Notice 04/2026",
           "url": "https://www.dubaicustoms.gov.ae/en/PoliciesAndNotices/Notices/CN4_2026.pdf"
-        },
-        {
-          "name": "NBC - Hormuz traffic down 90%",
-          "url": "https://www.nbcnews.com/business/economy/shipping-slows-crawl-strait-hormuz-threatening-snarl-international-tra-rcna261797"
-        },
-        {
-          "name": "CSIS - Hormuz analysis",
-          "url": "https://www.csis.org/analysis/no-one-not-even-beijing-getting-through-strait-hormuz"
         }
       ],
-      "analysis": "Dubai now has three alternative supply routes bypassing the Gulf entirely: (1) Fujairah/Khorfakkan east coast ports (Notice 03), (2) Oman bilateral Green Corridor via Hatta (Notice 04). Notice 04 is the bigger deal \u2014 it's a coordinated bilateral agreement with Oman enabling two-way international trade through Omani seaports. Ships dock at Oman's Indian Ocean ports (Sohar, Duqm, Salalah), truck overland to Dubai. Hormuz becomes irrelevant for Dubai's supply chain. This infrastructure may outlast the war."
+      "analysis": "UPGRADED TO RED. Iran naming 3 UAE ports as targets is a first \u2014 previously claimed to only target US assets. Araghchi explicitly said US attacked from RAK and 'near Dubai,' providing Iran narrative cover for direct port strikes. Fujairah fire (drone debris) already demonstrates the risk. The alternative supply routes via Oman remain critical. Hormuz showing first cracks \u2014 selective transit being allowed for India/Turkey, but no systematic reopening. France + allies planning naval escort convoy system."
     },
     {
       "id": "consumer",
       "title": "Retail Prices & Consumer Stress",
-      "status": "green",
-      "summary": "UAE government actively policing price gouging. 4,468 inspections, 449 warnings, Dh176K in fines. Food supplies confirmed adequate. Shelves stocked.",
+      "status": "amber",
+      "summary": "Government maintains 'no shortage' position. Bloomberg confirmed shelves stocked. IntelliNews headline: 'Dubai has 10 days of fresh food left.' UAE imports 90% of food \u2014 Indian rice, Australian meat, Indonesian coffee all snarled. Price gouging enforcement active (4,468 inspections, 449 warnings). Three supply route alternatives operational. Fresh food most vulnerable; dry goods and essentials appear stable.",
       "metrics": [
         {
-          "label": "Inspection Tours",
-          "value": "4,468",
+          "label": "Food Supply Status",
+          "value": "Government says adequate",
+          "trend": "stable"
+        },
+        {
+          "label": "Fresh Food Risk",
+          "value": "~10 days supply (IntelliNews)",
+          "trend": "down"
+        },
+        {
+          "label": "Import Dependency",
+          "value": "90% of food imported",
+          "trend": "stable"
+        },
+        {
+          "label": "Alternative Supply Routes",
+          "value": "3 active",
           "trend": "up"
         },
         {
-          "label": "Price Gouging Warnings",
-          "value": "449 firms",
+          "label": "Price Enforcement",
+          "value": "4,468 inspections, 449 warnings",
           "trend": "stable"
         },
         {
-          "label": "Fines Issued",
-          "value": "Dh176,000",
-          "trend": "stable"
-        },
-        {
-          "label": "Food Supply Status",
-          "value": "Adequate",
-          "trend": "stable"
-        },
-        {
-          "label": "Panic Buying",
-          "value": "Subsided",
-          "trend": "down"
+          "label": "IEA Oil Release",
+          "value": "400M barrels (largest ever)",
+          "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "Khaleej Times",
-          "url": "https://www.khaleejtimes.com/business/uae-warns-449-firms-for-hiking-prices-since-regional-military-conflict-began"
+          "name": "Gulf News - No stockpiling",
+          "url": "https://gulfnews.com/business/economy/uae-urges-residents-not-to-stockpile-food-reaffirms-markets-remain-well-supplied-1.500467501"
         },
         {
-          "name": "UAE Ministry of Economy",
-          "url": ""
+          "name": "Bloomberg - Shelves stocked",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-10/dubai-keeps-shelves-stocked-as-iran-war-disrupts-food-shipments"
+        },
+        {
+          "name": "IntelliNews - 10 days of food",
+          "url": "https://www.intellinews.com/dubai-has-ten-days-of-fresh-food-left-430178/"
         }
       ],
-      "analysis": "Economy Minister personally toured Al Awir Central Market (main wholesale hub). Government projecting normalcy and control. 420+ additional inspections planned for Ramadan. Price gouging is happening but being enforced against. No food shortages reported."
+      "analysis": "Two weeks in, no mass shortages reported. Government response has been strong. But the 10-day fresh food window is concerning if Hormuz + alternative routes face disruption. The Oman Green Corridor (Notice 04) is specifically designed to address this. If Iran escalates against ports (per the evacuation warning), supply chain could degrade rapidly."
     },
     {
       "id": "oman-border",
       "title": "Oman Border & Muscat Viability",
-      "status": "green",
-      "summary": "Oman confirmed as primary evacuation hub (NYT). 600+ evacuated by bus. Oman Air running Sharjah-Muscat bus link. BA/QR/Emirates/Etihad joint British evacuation via Oman. Border ~1hr queue.",
+      "status": "amber",
+      "summary": "Mass exodus via Hatta border reported Mar 14. Border crossing conditions 'significantly' changed per Travel & Tour World. Previously ~1hr queue, now potentially much longer. Oman remains evacuation hub (NYT confirmed 600+). Oman Air regional cancellations through Mar 22 limits outbound options from Muscat. Multiple airlines operating via Muscat for evacuations.",
       "metrics": [
         {
-          "label": "Projectiles at Oman",
-          "value": "8 (unchanged)",
+          "label": "Hatta Border",
+          "value": "Mass exodus reported (Mar 14)",
+          "trend": "down"
+        },
+        {
+          "label": "Wait Times",
+          "value": "Extended (was ~1hr)",
+          "trend": "down"
+        },
+        {
+          "label": "Oman Projectiles",
+          "value": "8 total (minimal targeting)",
           "trend": "stable"
         },
         {
-          "label": "Border Status",
-          "value": "Open (~1hr queue)",
+          "label": "Oman Air Regional",
+          "value": "Canceled through Mar 22",
+          "trend": "down"
+        },
+        {
+          "label": "Evacuation Hub",
+          "value": "Active (NYT confirmed)",
           "trend": "stable"
         },
         {
-          "label": "Muscat Airport",
-          "value": "Fully operational",
+          "label": "BA/QR/Emirates",
+          "value": "Joint evacuation via Muscat",
           "trend": "stable"
-        },
-        {
-          "label": "Bus Link (Sharjah\u2192MCT)",
-          "value": "Active (Oman Air)",
-          "trend": "up"
-        },
-        {
-          "label": "Evacuated via Oman",
-          "value": "600+ by bus",
-          "trend": "up"
-        },
-        {
-          "label": "Flights MCT\u2192India",
-          "value": "Available + expanding",
-          "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "NYT - Oman Evacuation Hub",
+          "name": "Travel & Tour World - Mass exodus",
+          "url": "https://www.travelandtourworld.com/news/article/oman-witnesses-mass-travel-escape-from-uae-via-hatta-border-following-irans-continuous-strikes-near-jebel-ali-port-al-dhafra-burj-al-arab-dubai-abu-dhabi-and-more-forcing-travel-chaos-ami/"
+        },
+        {
+          "name": "NYT - Oman evacuation hub",
           "url": "https://www.nytimes.com/2026/03/09/world/middleeast/iran-war-oman-evacuations.html"
         },
         {
-          "name": "AGBI - Evacuation flight demand",
-          "url": "https://www.agbi.com/aviation/2026/03/evacuation-flight-demand-surges-during-iran-conflict/"
-        },
-        {
-          "name": "The Traveler - Oman Air bus link",
-          "url": "https://www.thetraveler.org/oman-air-adds-uae-muscat-bus-link-for-stranded-fliers/"
+          "name": "Newland Chase - Oman Air",
+          "url": "https://newlandchase.com/crisis-advisory-faq/"
         }
       ],
-      "analysis": "Iran is deliberately NOT targeting Oman \u2014 they need the neutral corridor for diplomacy and trade. Only 8 drones total, no missiles, no recent attacks. This is the primary evacuation route: Dubai \u2192 Al Ain \u2192 Hili/Buraimi border \u2192 Muscat \u2192 fly out. Route validated by multiple evacuees."
+      "analysis": "UPGRADED TO AMBER. Iran's port evacuation warning triggered a new wave of departures via Hatta. Border conditions deteriorating from the surge. If you're planning to go, go soon \u2014 wait times will get worse as panic builds. Oman itself remains safe (only 8 projectiles total, near-zero recently). But Oman Air cancellations through Mar 22 limit air options from Muscat. Recommend checking Oman Air, Air India, Emirates availability ex-MCT."
     },
     {
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
-      "status": "amber",
-      "summary": "6 dead (unchanged 4 days). 141 injuries (unchanged today). Zero casualties on Day 15. Casualty rate effectively zero at current attack volumes.",
+      "status": "red",
+      "summary": "CRITICAL ESCALATION: Iran issued evacuation warning for 3 UAE ports \u2014 first time openly threatening non-US assets. Araghchi claims US attacked Kharg from UAE territory ('RAK and near Dubai'). Fujairah port oil facility fire from drone debris (AP confirmed). Iran says it will 'try to be careful not to attack populated areas' \u2014 hedged language, not a guarantee. Trump threatens to 'wipe out' Kharg oil infrastructure, which Iran says would trigger 'new level of retaliation.'",
       "metrics": [
         {
-          "label": "Total Dead",
-          "value": "6 (+2 today)",
-          "trend": "up"
+          "label": "Iran Port Warning",
+          "value": "Jebel Ali + Khalifa + Fujairah",
+          "trend": "down"
         },
         {
-          "label": "Emirati Deaths",
-          "value": "Yes (first time)",
-          "trend": "up"
+          "label": "Fujairah Oil Fire",
+          "value": "Drone debris (Mar 14)",
+          "trend": "down"
         },
         {
-          "label": "Military Martyred",
-          "value": "2",
+          "label": "UAE Civilian Deaths",
+          "value": "6 (unchanged)",
           "trend": "stable"
         },
         {
-          "label": "Injuries",
-          "value": "141 (+10)",
-          "trend": "up"
-        },
-        {
-          "label": "Drones Hit UAE (Day 11)",
-          "value": "9",
-          "trend": "up"
-        },
-        {
-          "label": "Deliberate Residential Targeting",
-          "value": "Not confirmed",
+          "label": "UAE Injuries",
+          "value": "141 (28 nationalities)",
           "trend": "stable"
+        },
+        {
+          "label": "Araghchi Statement",
+          "value": "'US attacked from UAE territory'",
+          "trend": "down"
+        },
+        {
+          "label": "Iran Promise",
+          "value": "'Try to be careful' (not guarantee)",
+          "trend": "down"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 11",
-          "url": "https://x.com/modgovae/status/2031357302004133965"
+          "name": "Fortune - Iran port threat",
+          "url": "https://fortune.com/2026/03/14/iran-threat-uae-ports-evacuation-orders-kharg-island-strike/"
+        },
+        {
+          "name": "WANA - Evacuation warning",
+          "url": "https://wanaen.com/iran-issues-urgent-evacuation-warning-to-uae-residents/"
+        },
+        {
+          "name": "Al Jazeera - Iran warns ports",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/iran-warns-uae-ports-and-american-hideouts-are-targets"
+        },
+        {
+          "name": "Middle East Monitor",
+          "url": "https://www.middleeastmonitor.com/20260314-iranian-armed-forces-call-for-evacuation-of-major-ports-in-uae-amid-rising-tensions/"
         }
       ],
-      "analysis": "All UAE fatalities and residential damage to date are from interception debris, not deliberate targeting of civilian areas. This is consistent with IRGC targeting US military installations (Al-Dhafra, Al-Minhad) rather than cities. However, debris risk is real and random. No UAE critical infrastructure has been struck."
+      "analysis": "THIS IS THE BIGGEST ESCALATION SINCE DAY 1. Iran previously maintained the fiction that it was only targeting US assets in GCC states. Naming 3 UAE ports and issuing civilian evacuation warnings crosses a new line. Araghchi's claim that the US attacked from UAE territory gives Iran narrative justification for treating UAE infrastructure as legitimate military targets. The hedged language ('try to be careful') is NOT reassuring \u2014 it's diplomatic cover for potential strikes. Combined with Trump threatening Kharg oil infrastructure (which Iran says triggers 'new level of retaliation'), the escalation spiral is re-accelerating even as attack volumes stay low."
     },
     {
       "id": "market-duration",
       "title": "Market-Implied Conflict Duration",
-      "status": "amber",
-      "summary": "Oil whiplash: spiked to $119.50 then crashed to ~$86 after Trump's 'war is very complete' comments. Markets erased steep losses. Signal: markets WANT to price in an end \u2014 any credible de-escalation will trigger a massive relief rally.",
+      "status": "red",
+      "summary": "Oil surging despite historic intervention. Brent $103, WTI $99 (up 17% SINCE IEA's 400M barrel release). IEA release = largest in 50-year history but 'nowhere near enough' per market. US releasing 172M barrels over 120 days (1.4M bpd = only 15% of lost Hormuz supply). Gold retreated to $5,032 from $5,420 record. Trump eased Russian oil sanctions to mitigate prices. Rystad: 2-month war \u2192 $110 Brent; 4-month war \u2192 $135 Brent by June.",
       "metrics": [
         {
-          "label": "WTI Crude",
-          "value": "~$86.50",
-          "trend": "down"
-        },
-        {
           "label": "Brent Crude",
-          "value": "~$90.17",
-          "trend": "down"
-        },
-        {
-          "label": "Oil Overnight Peak",
-          "value": "$119.50",
-          "trend": "down"
-        },
-        {
-          "label": "VIX",
-          "value": "~30 (touched)",
-          "trend": "stable"
-        },
-        {
-          "label": "Gold",
-          "value": "$5,133",
+          "value": "$103.14",
           "trend": "up"
         },
         {
-          "label": "S&P 500",
-          "value": "-1.05%",
+          "label": "WTI Crude",
+          "value": "$98.71",
+          "trend": "up"
+        },
+        {
+          "label": "Gold",
+          "value": "$5,032 (from $5,420 peak)",
           "trend": "down"
         },
         {
-          "label": "Dow",
-          "value": "-528 pts (-1.1%)",
-          "trend": "down"
+          "label": "IEA SPR Release",
+          "value": "400M barrels (largest ever)",
+          "trend": "up"
         },
         {
-          "label": "Market Signal",
-          "value": "Wants off-ramp",
+          "label": "US SPR Release",
+          "value": "172M barrels / 120 days",
+          "trend": "up"
+        },
+        {
+          "label": "Rystad 4-Mo Forecast",
+          "value": "Brent $135 by June",
+          "trend": "up"
+        },
+        {
+          "label": "Russian Oil Sanctions",
+          "value": "Eased by Trump",
           "trend": "down"
         }
       ],
       "sources": [
         {
-          "name": "CNBC - Oil drops on Trump signal",
-          "url": "https://www.cnbc.com/2026/03/08/crude-oil-prices-today-iran-war.html"
+          "name": "CNBC - IEA stockpile release",
+          "url": "https://www.cnbc.com/2026/03/14/iran-war-iea-oil-stockpile-spr-strait-hormuz.html"
         },
         {
-          "name": "Business Insider - Brent drops to $90",
-          "url": "https://www.businessinsider.com/oil-price-shock-brent-wti-crude-100-threshold-iran-war-2026-3"
+          "name": "Oil Price API",
+          "url": "https://www.oilpriceapi.com/oil-prices-today"
         },
         {
-          "name": "Investopedia - Stocks erase losses",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03092026-11921796"
+          "name": "Reuters - Trump Hormuz ships",
+          "url": "https://www.reuters.com/world/asia-pacific/trump-says-many-countries-will-send-warships-keep-strait-hormuz-open-2026-03-14/"
         },
         {
-          "name": "USA Today - Oil odds",
-          "url": "https://eu.usatoday.com/story/news/2026/03/09/crude-oil-prices-today-iran-war-brent-crude-wti-oil-futures-predictions-polymarket-kalshi-trump-war/89063692007/"
+          "name": "NYT - Oil +40% since war",
+          "url": "https://www.nytimes.com/2026/03/12/business/oil-stock-gas-markets-iran.html"
         }
       ],
-      "analysis": "Oil's $119\u2192$86 crash on a single Trump comment tells you everything: markets are desperate for an off-ramp and will aggressively price in any de-escalation signal. The $119 peak represents the worst-case Hormuz scenario; the $86 landing represents 'Trump might end this soon.' Until a formal ceasefire, expect continued volatility between these bounds. Gold recovering from margin-call lows."
+      "analysis": "Market is saying the war is NOT ending soon. If the IEA's largest-ever stockpile release can't prevent oil from surging 17%, the market is pricing in a prolonged Hormuz closure. The SPR math is damning: 1.4M bpd release vs 9M bpd lost = covers only 15%. Russia sanctions easing is a desperation move. Gold retreating from $5,420 to $5,032 suggests some war premium unwinding, but oil tells the real story."
     },
     {
       "id": "endgame",
       "title": "Conflict Endgame \u2014 Is Tehran Still Coherent?",
-      "status": "amber",
-      "summary": "Mojtaba Khamenei officially named Supreme Leader. Trump shifted to 'war is very complete' / 'close to end' \u2014 first de-escalation signal from the US. Oil crashed 20% on the comment. But no formal ceasefire framework exists yet.",
+      "status": "red",
+      "summary": "CEASEFIRE DEAD FOR NOW. Reuters exclusive: Trump rejected allied mediation efforts. NBC: Trump says 'Iran wants a deal, terms aren't good enough yet.' Demands complete nuclear abandonment. Iran FM: rejected ceasefire 'until US stops.' Mojtaba Khamenei's first statement (written only, never appeared in person): Hormuz stays closed, keep fighting. Trump questions whether Khamenei is 'even alive.' US struck Kharg Island military targets, threatens oil infrastructure next. 2,500 Marines + USS Tripoli deploying. Israel hit 200+ targets in 24hrs. UN Security Council resolution demands Iran stop GCC attacks.",
       "metrics": [
         {
-          "label": "Ceasefire Talks",
-          "value": "None formal",
-          "trend": "stable"
-        },
-        {
-          "label": "Trump Rhetoric",
-          "value": "'War very complete'",
+          "label": "Ceasefire Status",
+          "value": "REJECTED (both sides)",
           "trend": "down"
         },
         {
-          "label": "Iran FM Position",
-          "value": "Still rejects ceasefire",
-          "trend": "stable"
+          "label": "Trump Position",
+          "value": "'Terms not good enough yet'",
+          "trend": "down"
         },
         {
-          "label": "Tehran C2 Coherence",
-          "value": "Fractured",
-          "trend": "stable"
+          "label": "Iran Position",
+          "value": "'No ceasefire while US attacks'",
+          "trend": "down"
         },
         {
-          "label": "New Supreme Leader",
-          "value": "Mojtaba Khamenei (confirmed)",
+          "label": "Kharg Island",
+          "value": "Military targets struck, oil spared (for now)",
+          "trend": "down"
+        },
+        {
+          "label": "Trump on Khamenei",
+          "value": "'Not even alive'",
+          "trend": "unknown"
+        },
+        {
+          "label": "US Troop Additions",
+          "value": "2,500 Marines + USS Tripoli",
           "trend": "up"
         },
         {
-          "label": "Oil Price Response",
-          "value": "$119\u2192$86 crash",
-          "trend": "down"
+          "label": "UNSC Resolution",
+          "value": "Demands Iran stop GCC attacks",
+          "trend": "up"
         },
         {
-          "label": "IRGC Autonomy Level",
-          "value": "High (fire-at-will)",
-          "trend": "stable"
-        },
-        {
-          "label": "US Staff Ordered Out of KSA",
-          "value": "Yes",
-          "trend": "stable"
+          "label": "Naval Escort",
+          "value": "France organizing multinational force",
+          "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "India Today - Mojtaba Khamenei named",
-          "url": "https://www.indiatoday.in/world/story/us-israel-iran-war-updates-middle-east-crises-us-iran-israel-dubai-uae-donald-trump-netanyahu-lebanon-beirut-saudi-arabia-tehran-drones-missles-2879187-2026-03-09"
+          "name": "Reuters - Trump rejects ceasefire",
+          "url": "https://www.reuters.com/world/middle-east/trump-rejects-efforts-launch-iran-ceasefire-talks-sources-say-2026-03-14/"
         },
         {
-          "name": "Investopedia - Stocks erase losses on Trump",
-          "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03092026-11921796"
+          "name": "NBC - Trump interview",
+          "url": "https://www.nbcnews.com/politics/donald-trump/iran-negotiate-ceasefire-deal-trump-kharg-hormuz-oil-rcna263474"
         },
         {
-          "name": "Business Insider - Oil drops on Trump signal",
-          "url": "https://www.businessinsider.com/oil-price-shock-brent-wti-crude-100-threshold-iran-war-2026-3"
+          "name": "NYT - Khamenei statement",
+          "url": "https://www.nytimes.com/2026/03/12/world/middleeast/khamenei-statement.html"
         },
         {
-          "name": "CNBC - Iran rules out ceasefire",
-          "url": "https://www.cnbc.com/2026/03/09/iran-war-updates-oil-brent-wti-crude-110-gulf-gcc-uae-iraq-saudi-arabia-kurds.html"
+          "name": "WaPo - Kharg Island strikes",
+          "url": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/"
+        },
+        {
+          "name": "UK Parliament - Briefing",
+          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/"
         }
       ],
-      "analysis": "Two contradictory signals: (1) Trump's 'war is very complete' is the first US de-escalation rhetoric \u2014 markets responded instantly with oil crashing from $119 to $86. (2) But Iran FM still rejects ceasefire, IRGC announced it 'will decide end of war,' and Mojtaba Khamenei's appointment may harden Iran's position (he's IRGC-aligned, not a moderate). The gap between Trump declaring victory and Iran continuing to fight is the key tension. If Trump means it, a unilateral US ceasefire could emerge \u2014 but Israel may not comply. Watch for: Trump-Netanyahu call, any IRGC volume change, Mojtaba's first public statement."
+      "analysis": "The endgame just got further away. Both sides have explicitly rejected ceasefire. Trump wants complete nuclear surrender. Iran says no talks while bombs fall. Mojtaba Khamenei's written-only statement (never appeared in person \u2014 Trump questions if he's alive) vowed to keep Hormuz closed. The Kharg Island strike is the biggest single escalation of the war: US put a marker on Iran's economic jugular without cutting it, essentially saying 'we can kill your oil revenue whenever we want.' If Trump follows through on the oil infrastructure threat, Iran's parliament speaker warned of 'a new level of retaliation.' Both sides are escalating, not de-escalating. The war is not ending in the next week."
     }
   ],
   "triggerList": {
