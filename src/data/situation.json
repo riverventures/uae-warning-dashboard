@@ -219,17 +219,12 @@
       "id": "consumer",
       "title": "Retail Prices & Consumer Stress",
       "status": "amber",
-      "summary": "Government maintains 'no shortage' position. Bloomberg confirmed shelves stocked. IntelliNews headline: 'Dubai has 10 days of fresh food left.' UAE imports 90% of food \u2014 Indian rice, Australian meat, Indonesian coffee all snarled. Price gouging enforcement active (4,468 inspections, 449 warnings). Three supply route alternatives operational. Fresh food most vulnerable; dry goods and essentials appear stable.",
+      "summary": "Government maintains supplies are adequate. Bloomberg confirmed shelves stocked. Price gouging enforcement active (4,468 inspections, 449 warnings). Three alternative supply routes operational (Fujairah, Khorfakkan, Oman Green Corridor). UAE imports 90% of food but has systematically built Hormuz bypass infrastructure. Fresh food supply chains under strain but functioning.",
       "metrics": [
         {
           "label": "Food Supply Status",
-          "value": "Government says adequate",
+          "value": "Adequate (govt + Bloomberg)",
           "trend": "stable"
-        },
-        {
-          "label": "Fresh Food Risk",
-          "value": "~10 days supply (IntelliNews)",
-          "trend": "down"
         },
         {
           "label": "Import Dependency",
@@ -238,7 +233,7 @@
         },
         {
           "label": "Alternative Supply Routes",
-          "value": "3 active",
+          "value": "3 active (bypassing Hormuz)",
           "trend": "up"
         },
         {
@@ -262,11 +257,11 @@
           "url": "https://www.bloomberg.com/news/articles/2026-03-10/dubai-keeps-shelves-stocked-as-iran-war-disrupts-food-shipments"
         },
         {
-          "name": "IntelliNews - 10 days of food",
-          "url": "https://www.intellinews.com/dubai-has-ten-days-of-fresh-food-left-430178/"
+          "name": "Dubai Customs Notice 04/2026",
+          "url": "https://www.dubaicustoms.gov.ae/en/PoliciesAndNotices/Notices/CN4_2026.pdf"
         }
       ],
-      "analysis": "Two weeks in, no mass shortages reported. Government response has been strong. But the 10-day fresh food window is concerning if Hormuz + alternative routes face disruption. The Oman Green Corridor (Notice 04) is specifically designed to address this. If Iran escalates against ports (per the evacuation warning), supply chain could degrade rapidly."
+      "analysis": "Two weeks in, no mass shortages. Government response has been strong \u2014 enforcement, alternative routes, and consumer messaging all coordinated. The Oman Green Corridor specifically addresses food import vulnerability. Monitor fresh produce availability week-to-week but current evidence does not support shortage panic."
     },
     {
       "id": "oman-border",
