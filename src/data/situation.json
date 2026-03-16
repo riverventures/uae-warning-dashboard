@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T16:20:00+04:00",
+  "lastUpdated": "2026-03-16T06:25:00+04:00",
   "conflictDay": 16,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
@@ -92,55 +92,46 @@
     {
       "id": "airport",
       "title": "Airport & Airspace Operations",
-      "status": "amber",
-      "summary": "Emirates operating reduced schedule to 110+ destinations. Mar 14: 143 Emirates + 56 Flydubai flights. Mar 15: 156 Emirates + 64 Flydubai planned. Reduced operations extended through Mar 28. Air Canada canceled ALL Dubai flights until May. Oman Air regional cancellations through Mar 22. Air India running 36+ ad-hoc repatriation flights. DXB operational but not normal.",
+      "status": "red",
+      "summary": "ALL FLIGHTS SUSPENDED. Drone debris hit a fuel tank at DXB. Fire ongoing, Civil Defence responding. Emirates: 'Do not go to the airport.' No injuries reported. This is the most significant DXB incident of the war \u2014 previous debris incidents did not halt operations.",
       "metrics": [
         {
-          "label": "Emirates (Mar 15)",
-          "value": "156 flights planned",
-          "trend": "up"
-        },
-        {
-          "label": "Flydubai (Mar 15)",
-          "value": "64 flights planned",
-          "trend": "up"
-        },
-        {
-          "label": "Emirates Destinations",
-          "value": "110+",
-          "trend": "up"
-        },
-        {
-          "label": "Reduced Ops Extended",
-          "value": "Through Mar 28",
+          "label": "DXB Status",
+          "value": "ALL FLIGHTS SUSPENDED",
           "trend": "down"
         },
         {
-          "label": "Air Canada",
-          "value": "Canceled until May",
+          "label": "Incident",
+          "value": "Fuel tank fire (drone debris)",
           "trend": "down"
         },
         {
-          "label": "Repatriation Flights",
-          "value": "Air India 36+ ad-hoc",
-          "trend": "up"
+          "label": "Injuries",
+          "value": "None reported",
+          "trend": "stable"
+        },
+        {
+          "label": "Emirates",
+          "value": "'Do not go to the airport'",
+          "trend": "down"
+        },
+        {
+          "label": "Civil Defence",
+          "value": "Responding",
+          "trend": "stable"
         }
       ],
       "sources": [
         {
-          "name": "LoyaltyLobby - Emirates/Flydubai flights",
-          "url": "https://loyaltylobby.com/2026/03/14/emirates-flydubai-operations-stable-205-flights-for-saturday-212-for-saturday-march-14-15/"
+          "name": "Dubai Media Office",
+          "url": "https://x.com/DXBMediaOffice/status/2033338259812893159"
         },
         {
-          "name": "TravelPirates - DXB status",
-          "url": "https://www.travelpirates.com/captains-log/dubai-airport-march-14-2026-flights-update-emirates"
-        },
-        {
-          "name": "Flightradar24 - Aviation updates",
-          "url": "https://www.flightradar24.com/blog/live/israel-launches-pre-emptive-strikes-on-iran-airspace-closures-going-into-place/"
+          "name": "Emirates Support",
+          "url": "https://x.com/EmiratesSupport/status/2033356098556805485"
         }
       ],
-      "analysis": "Gradual improvement \u2014 Emirates up from near-zero to 156 flights/day. But reduced ops extended through Mar 28 signals airlines don't expect normalization soon. Air Canada's May cancellation is a market signal about expected conflict duration."
+      "analysis": "DXB fuel tank fire from drone debris triggered full flight suspension. Previous incidents (3 drone/debris events) did not stop operations. This one did. Unknown how long suspension will last \u2014 depends on fire containment and fuel infrastructure damage assessment. This validates the amber-to-red trigger for DXB that was in the original framework."
     },
     {
       "id": "ports",
