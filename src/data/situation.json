@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-19T14:35:00+04:00",
-  "conflictDay": 20,
+  "lastUpdated": "2026-03-20T14:20:00+04:00",
+  "conflictDay": 21,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "green",
-      "summary": "Day 20: 7 ballistic + 15 drones engaged. Zero casualties. Deaths 8, injuries 158 (both unchanged). Defense performing well at current volumes.",
+      "summary": "Day 21: 4 ballistic + 26 drones engaged. Zero casualties (2nd consecutive day). Deaths 8, injuries 158 (unchanged). Defense system well within capacity at ~30/day volume.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -38,8 +38,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 20",
-          "url": "https://x.com/modgovae/status/2034579598223225020"
+          "name": "UAE MOD Day 21",
+          "url": "https://x.com/modgovae/status/2034938599423320229"
         }
       ],
       "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
@@ -47,39 +47,39 @@
     {
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
-      "status": "amber",
-      "summary": "Day 20: 22 total (7 ballistic + 15 drones). Ballistic uptrend broke (13\u21927). Volume back toward low end. Three weeks in, pattern is volatile in the 20-55/day range. No cruise missiles for 8 days. Zero casualties today.",
+      "status": "green",
+      "summary": "Day 21: 30 total. Three weeks complete. Week 3 averaged ~30/day (vs ~160 Week 1, ~50 Week 2). Ballistic at war-low (4). No cruise missiles for 9 days. Zero casualties for 2 days. Iran maintaining minimum viable harassment at the UAE.",
       "metrics": [
         {
-          "label": "Day 20 Total",
-          "value": "22",
-          "trend": "down"
-        },
-        {
-          "label": "Day 20 Ballistic",
-          "value": "7 (uptrend broken)",
-          "trend": "down"
-        },
-        {
-          "label": "Day 20 Drones",
-          "value": "15",
-          "trend": "down"
-        },
-        {
-          "label": "Cruise Missiles",
-          "value": "0 for 8 days",
+          "label": "Day 21 Total",
+          "value": "30",
           "trend": "stable"
         },
         {
+          "label": "Day 21 Ballistic",
+          "value": "4 (war-low tier)",
+          "trend": "down"
+        },
+        {
+          "label": "Day 21 Drones",
+          "value": "26",
+          "trend": "stable"
+        },
+        {
+          "label": "Week 3 Average",
+          "value": "~30/day",
+          "trend": "down"
+        },
+        {
           "label": "Total Projectiles",
-          "value": "2,063",
+          "value": "2,093",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 20",
-          "url": "https://x.com/modgovae/status/2034579598223225020"
+          "name": "UAE MOD Day 21",
+          "url": "https://x.com/modgovae/status/2034938599423320229"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -685,6 +685,13 @@
       "date": "2026-03-19",
       "ballistic": 7,
       "drones": 15,
+      "cruise": 0
+    },
+    {
+      "day": 21,
+      "date": "2026-03-20",
+      "ballistic": 4,
+      "drones": 26,
       "cruise": 0
     }
   ]
