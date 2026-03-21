@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-20T14:20:00+04:00",
-  "conflictDay": 21,
+  "lastUpdated": "2026-03-21T14:25:00+04:00",
+  "conflictDay": 22,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "green",
-      "summary": "Day 21: 4 ballistic + 26 drones engaged. Zero casualties (2nd consecutive day). Deaths 8, injuries 158 (unchanged). Defense system well within capacity at ~30/day volume.",
+      "summary": "Day 22: 3 ballistic + 8 drones engaged. Deaths 8 (unchanged 5 days). Injuries 160 (+2). Defense well within capacity.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -38,8 +38,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 21",
-          "url": "https://x.com/modgovae/status/2034938599423320229"
+          "name": "UAE MOD Day 22",
+          "url": "https://x.com/modgovae/status/2035301652618793282"
         }
       ],
       "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
@@ -48,38 +48,38 @@
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "green",
-      "summary": "Day 21: 30 total. Three weeks complete. Week 3 averaged ~30/day (vs ~160 Week 1, ~50 Week 2). Ballistic at war-low (4). No cruise missiles for 9 days. Zero casualties for 2 days. Iran maintaining minimum viable harassment at the UAE.",
+      "summary": "Day 22: 11 total (3 ballistic + 8 drones). NEW WAR LOW (beats Day 16's 10 when adjusted for cruise). No cruise for 10 days. Week 3+ avg down to ~27/day. Iran approaching single-digit territory.",
       "metrics": [
         {
-          "label": "Day 21 Total",
-          "value": "30",
-          "trend": "stable"
-        },
-        {
-          "label": "Day 21 Ballistic",
-          "value": "4 (war-low tier)",
+          "label": "Day 22 Total",
+          "value": "11 (war low)",
           "trend": "down"
         },
         {
-          "label": "Day 21 Drones",
-          "value": "26",
-          "trend": "stable"
+          "label": "Day 22 Ballistic",
+          "value": "3",
+          "trend": "down"
         },
         {
-          "label": "Week 3 Average",
-          "value": "~30/day",
+          "label": "Day 22 Drones",
+          "value": "8",
           "trend": "down"
+        },
+        {
+          "label": "Cruise Missiles",
+          "value": "0 for 10 days",
+          "trend": "stable"
         },
         {
           "label": "Total Projectiles",
-          "value": "2,093",
+          "value": "2,104",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 21",
-          "url": "https://x.com/modgovae/status/2034938599423320229"
+          "name": "UAE MOD Day 22",
+          "url": "https://x.com/modgovae/status/2035301652618793282"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -286,7 +286,7 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "green",
-      "summary": "8 dead (unchanged 3 days). 158 injuries (unchanged 2 days). Zero casualties Day 20. At current volumes, civilian risk from kinetic campaign is minimal.",
+      "summary": "8 dead (unchanged 5 days). 160 injuries (+2). At 11 projectiles/day, civilian risk from kinetic campaign is minimal.",
       "metrics": [
         {
           "label": "Deaths",
@@ -692,6 +692,13 @@
       "date": "2026-03-20",
       "ballistic": 4,
       "drones": 26,
+      "cruise": 0
+    },
+    {
+      "day": 22,
+      "date": "2026-03-21",
+      "ballistic": 3,
+      "drones": 8,
       "cruise": 0
     }
   ]
