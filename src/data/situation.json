@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T16:20:00+04:00",
+  "lastUpdated": "2026-03-25T18:50:00+04:00",
   "conflictDay": 26,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
@@ -87,43 +87,33 @@
     {
       "id": "airport",
       "title": "Airport & Airspace Operations",
-      "status": "red",
-      "summary": "ALL FLIGHTS SUSPENDED. Drone debris hit a fuel tank at DXB. Fire ongoing, Civil Defence responding. Emirates: 'Do not go to the airport.' No injuries reported. This is the most significant DXB incident of the war \u2014 previous debris incidents did not halt operations.",
+      "status": "amber",
+      "summary": "DXB BACK OPERATIONAL (limited). Emirates: 206 flights today, Flydubai: 60. Air India Group: 26 regional flights. Fuel tank fire (Day 17) repaired. Capacity well below pre-war levels but flights running daily. Status upgraded from red.",
       "metrics": [
         {
-          "label": "DXB Status",
-          "value": "ALL FLIGHTS SUSPENDED",
-          "trend": "down"
+          "label": "Emirates Flights (Mar 25)",
+          "value": "206 ex-DXB",
+          "trend": "up"
         },
         {
-          "label": "Incident",
-          "value": "Fuel tank fire (drone debris)",
-          "trend": "down"
+          "label": "Flydubai Flights",
+          "value": "60 ex-DXB",
+          "trend": "up"
         },
         {
-          "label": "Injuries",
-          "value": "None reported",
-          "trend": "stable"
-        },
-        {
-          "label": "Emirates",
-          "value": "'Do not go to the airport'",
-          "trend": "down"
-        },
-        {
-          "label": "Civil Defence",
-          "value": "Responding",
-          "trend": "stable"
+          "label": "Air India Group",
+          "value": "26 West Asia flights",
+          "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "Dubai Media Office",
-          "url": "https://x.com/DXBMediaOffice/status/2033338259812893159"
+          "name": "LoyaltyLobby Mar 25",
+          "url": "https://loyaltylobby.com/2026/03/25/emirates-flydubai-operations-stable-206-flights-for-wednesday-207-for-thursday-ex-dxb-march-25-26/"
         },
         {
-          "name": "Emirates Support",
-          "url": "https://x.com/EmiratesSupport/status/2033356098556805485"
+          "name": "Time Out Dubai",
+          "url": "https://www.timeoutdubai.com/news/dxb-travel-advice-march-2026"
         }
       ],
       "analysis": "DXB fuel tank fire from drone debris triggered full flight suspension. Previous incidents (3 drone/debris events) did not stop operations. This one did. Unknown how long suspension will last \u2014 depends on fire containment and fuel infrastructure damage assessment. This validates the amber-to-red trigger for DXB that was in the original framework."
@@ -132,7 +122,7 @@
       "id": "ports",
       "title": "Ports & Cargo Continuity",
       "status": "amber",
-      "summary": "Iran issued evacuation warning for Jebel Ali, Khalifa, and Fujairah ports (Mar 14) \u2014 reported by AP, Reuters, Al Jazeera. Araghchi claims US attacked Kharg from UAE territory. No actual port strikes followed the warning. Fujairah oil facility fire was from intercepted drone debris (AP), not a targeted attack. Three alternative supply routes active. Hormuz still largely shut but selective transits occurring (2 Indian LPG carriers, 1 Saudi tanker allowed through). France organizing multinational naval escort.",
+      "summary": "Iran told UN/IMO that 'non-hostile vessels' may transit Hormuz if they coordinate with Iranian authorities. Not a formal blockade. De-escalation signal, but still severely restricted. Alternative supply routes (Oman Green Corridor) still active.",
       "metrics": [
         {
           "label": "Iran Port Warning",
@@ -167,20 +157,12 @@
       ],
       "sources": [
         {
-          "name": "AP via Fortune - Port warning + Fujairah fire",
-          "url": "https://fortune.com/2026/03/14/iran-threat-uae-ports-evacuation-orders-kharg-island-strike/"
+          "name": "Reuters: Iran non-hostile ships",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-non-hostile-ships-can-transit-strait-hormuz-ft-reports-2026-03-24/"
         },
         {
-          "name": "Al Jazeera - Iran port warning",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/iran-warns-uae-ports-and-american-hideouts-are-targets"
-        },
-        {
-          "name": "Reuters - Ships braving Hormuz",
-          "url": "https://www.reuters.com/business/energy/lured-by-profits-some-shipowners-brave-mines-missiles-sneak-oil-past-iran-2026-03-13/"
-        },
-        {
-          "name": "Reuters - Naval escort plans",
-          "url": "https://www.reuters.com/world/asia-pacific/trump-says-many-countries-will-send-warships-keep-strait-hormuz-open-2026-03-14/"
+          "name": "Al Jazeera: Hormuz update",
+          "url": "https://www.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz"
         }
       ],
       "analysis": "Iran's port warning is real and reported by tier-1 sources, but rhetoric hasn't translated to kinetic action against ports. The Fujairah fire was debris from a successful intercept \u2014 not deliberate targeting. Alternative supply routes (Fujairah, Khorfakkan, Oman Green Corridor) mitigate port disruption risk. Hormuz showing first cracks with selective transits. Watch for any deliberate port targeting \u2014 that would be a genuine red trigger."
@@ -286,7 +268,7 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "amber",
-      "summary": "Iran explicitly named Barakah nuclear plant as potential target (Fars News/IRGC). Parliament speaker: all regional infrastructure now 'legitimate targets.' Rhetoric highest of war, but kinetic campaign unchanged. 8 dead, ~161 injured.",
+      "summary": "Barakah nuclear plant threat (Fars/IRGC) still on record. But Day 26 saw war-low 9 projectiles, zero ballistic. Deaths 8 (unchanged 8+ days). Rhetoric-kinetic gap widest of the war. 15-point plan may de-escalate if accepted.",
       "metrics": [
         {
           "label": "Deaths",
@@ -315,57 +297,42 @@
     {
       "id": "market-duration",
       "title": "Market-Implied Conflict Duration",
-      "status": "red",
-      "summary": "Brent $103, WTI $99. Oil up 17% since IEA announced largest-ever 400M barrel stockpile release. US releasing 172M barrels over 120 days (1.4M bpd \u2014 covers ~15% of Hormuz loss). Gold retreated to $5,032 from $5,420 peak. Trump eased Russian oil sanctions to offset prices. Rystad forecast: $110 Brent at 2 months, $135 at 4 months.",
+      "status": "amber",
+      "summary": "Brent crude FELL to $99.30 (-5% today, -12% from $113 peak) on ceasefire hopes. UAE equities rallied 2 consecutive days. DFMGI gaining on 15-point proposal news. Oil back below $100 for first time since mid-March. Still up ~35% since war started. AGBI reports hotel occupancy collapsed to single/low double digits, hospitality layoffs accelerating, rent defaults rising.",
       "metrics": [
         {
           "label": "Brent Crude",
-          "value": "$103.14",
-          "trend": "up"
-        },
-        {
-          "label": "WTI Crude",
-          "value": "$98.71",
-          "trend": "up"
-        },
-        {
-          "label": "Gold",
-          "value": "$5,032 (from $5,420 peak)",
+          "value": "$99.30 (down from $113)",
           "trend": "down"
         },
         {
-          "label": "IEA SPR Release",
-          "value": "400M barrels (largest ever)",
+          "label": "UAE Equities",
+          "value": "2-day rally",
           "trend": "up"
         },
         {
-          "label": "US SPR Release",
-          "value": "172M barrels / 120 days",
-          "trend": "up"
-        },
-        {
-          "label": "Rystad 4-Mo Forecast",
-          "value": "Brent $135 by June",
-          "trend": "up"
-        },
-        {
-          "label": "Russian Oil Sanctions",
-          "value": "Eased by Trump",
+          "label": "Hotel Occupancy",
+          "value": "Low single/double digits (was 80%)",
           "trend": "down"
+        },
+        {
+          "label": "Tourism Loss",
+          "value": "$600M/day (WTTC)",
+          "trend": "stable"
         }
       ],
       "sources": [
         {
-          "name": "CNBC - IEA stockpile release",
-          "url": "https://www.cnbc.com/2026/03/14/iran-war-iea-oil-stockpile-spr-strait-hormuz.html"
+          "name": "CNBC: Oil falls on talks signal",
+          "url": "https://www.cnbc.com/2026/03/25/oil-price-wti-brent-gas-lng-trump-iran-talks-hormuz.html"
         },
         {
-          "name": "Oil Price API - Live prices",
-          "url": "https://www.oilpriceapi.com/oil-prices-today"
+          "name": "The National: UAE equities rally",
+          "url": "https://www.thenationalnews.com/business/markets/2026/03/25/uae-equities-lead-second-day-of-gains-on-ceasefire-hopes/"
         },
         {
-          "name": "Reuters - Hormuz escort plans",
-          "url": "https://www.reuters.com/world/asia-pacific/trump-says-many-countries-will-send-warships-keep-strait-hormuz-open-2026-03-14/"
+          "name": "AGBI: Dubai rental defaults",
+          "url": "https://www.agbi.com/analysis/real-estate/2026/03/dubai-landlords-face-tenant-rental-defaults/"
         }
       ],
       "analysis": "Oil markets are pricing in a prolonged conflict. The IEA SPR release \u2014 largest in 50 years \u2014 hasn't capped prices because the Hormuz shortfall (~9M bpd) dwarfs the release rate (~1.4M bpd). This is the strongest objective indicator that markets expect the war to continue. Gold retreating suggests some war premium unwinding but oil tells the real story."
@@ -373,8 +340,8 @@
     {
       "id": "endgame",
       "title": "Conflict Endgame \u2014 Is Tehran Still Coherent?",
-      "status": "red",
-      "summary": "Trump 48hr Hormuz ultimatum expires tonight. Iran threatens to mine entire Persian Gulf + hit all regional power/desal plants. Brent $113 (+55% since war). S&P 4-week threshold reached. Both sides at peak rhetorical escalation.",
+      "status": "amber",
+      "summary": "MAJOR SHIFT: Trump admin sent Iran a 15-point ceasefire plan (NYT, Reuters, AP, Channel 12 confirmed). Brent dropped 9%+ on the news. UAE equities rallying. BUT: Fars News (IRGC-linked) says Tehran 'will not accept ceasefire' and considers talks 'not logical.' Confusion over Iran's actual response. First concrete peace proposal of the war.",
       "metrics": [
         {
           "label": "Ceasefire Status",
@@ -419,20 +386,12 @@
       ],
       "sources": [
         {
-          "name": "Reuters - Trump rejects ceasefire talks",
-          "url": "https://www.reuters.com/world/middle-east/trump-rejects-efforts-launch-iran-ceasefire-talks-sources-say-2026-03-14/"
+          "name": "AP: 15-point ceasefire plan",
+          "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-march-24-2026-8bb5e79a98ea72fccc5c50b4931ad778"
         },
         {
-          "name": "NBC - Trump interview",
-          "url": "https://www.nbcnews.com/politics/donald-trump/iran-negotiate-ceasefire-deal-trump-kharg-hormuz-oil-rcna263474"
-        },
-        {
-          "name": "NYT - Khamenei statement",
-          "url": "https://www.nytimes.com/2026/03/12/world/middleeast/khamenei-statement.html"
-        },
-        {
-          "name": "WaPo - Kharg Island strikes",
-          "url": "https://www.washingtonpost.com/politics/2026/03/13/trump-us-iran-war-kharg-island-oil/"
+          "name": "Guardian: Confusion over Iran response",
+          "url": "https://www.theguardian.com/world/live/2026/mar/25/middle-east-crisis-live-iran-war-oil-prices-more-us-troops-reportedly-deployed-donald-trump-attacks-on-lebanon"
         }
       ],
       "analysis": "Both sides have explicitly rejected ceasefire through tier-1 outlets. This is not inference \u2014 it's direct statements. The gap between positions is wide: Trump wants nuclear surrender, Iran wants strikes to stop first. No mediator has bridged this. Kharg Island strike puts Iran's economic lifeline at risk, which hardens Iran's position rather than softening it. The war is not ending this week."
