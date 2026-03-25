@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-23T14:26:00+04:00",
-  "conflictDay": 24,
+  "lastUpdated": "2026-03-25T16:20:00+04:00",
+  "conflictDay": 26,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "green",
-      "summary": "Day 24: 7 ballistic + 16 drones engaged. Deaths 8 (unchanged 7 days). Injuries 161 (+1).",
+      "summary": "Day 26: 0 ballistic + 9 drones engaged. Zero ballistic = minimal interceptor expenditure. Defense system under negligible load.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -38,8 +38,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 24",
-          "url": "https://x.com/modgovae/status/2036026771997393349"
+          "name": "UAE MOD Day 26",
+          "url": "https://x.com/modgovae/status/2036759446676992421"
         }
       ],
       "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
@@ -48,33 +48,38 @@
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "green",
-      "summary": "Day 24: 23 total (7 ballistic + 16 drones). 7-day rolling avg now ~25/day and still declining. No cruise for 12 days. S&P 4-week threshold in 4 days.",
+      "summary": "Day 26: 9 total \u2014 NEW WAR LOW. Zero ballistic missiles for the first time in the entire war. Only 9 drones. Despite Barakah nuclear plant threats and expired Hormuz ultimatum, kinetic volume at lowest point ever. Week 4 avg: ~19/day.",
       "metrics": [
         {
-          "label": "Day 24 Total",
-          "value": "23",
-          "trend": "stable"
-        },
-        {
-          "label": "7-Day Average",
-          "value": "~25/day",
+          "label": "Day 26 Total",
+          "value": "9 (war low)",
           "trend": "down"
         },
         {
-          "label": "Cruise Missiles",
-          "value": "0 for 12 days",
-          "trend": "stable"
+          "label": "Day 26 Ballistic",
+          "value": "0 (first time ever)",
+          "trend": "down"
+        },
+        {
+          "label": "Day 26 Drones",
+          "value": "9",
+          "trend": "down"
+        },
+        {
+          "label": "Week 4 Average",
+          "value": "~19/day",
+          "trend": "down"
         },
         {
           "label": "Total Projectiles",
-          "value": "2,156",
+          "value": "2,187",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 24",
-          "url": "https://x.com/modgovae/status/2036026771997393349"
+          "name": "UAE MOD Day 26",
+          "url": "https://x.com/modgovae/status/2036759446676992421"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -280,8 +285,8 @@
     {
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
-      "status": "green",
-      "summary": "8 dead (unchanged 5 days). 160 injuries (+2). At 11 projectiles/day, civilian risk from kinetic campaign is minimal.",
+      "status": "amber",
+      "summary": "Iran explicitly named Barakah nuclear plant as potential target (Fars News/IRGC). Parliament speaker: all regional infrastructure now 'legitimate targets.' Rhetoric highest of war, but kinetic campaign unchanged. 8 dead, ~161 injured.",
       "metrics": [
         {
           "label": "Deaths",
@@ -369,7 +374,7 @@
       "id": "endgame",
       "title": "Conflict Endgame \u2014 Is Tehran Still Coherent?",
       "status": "red",
-      "summary": "No ceasefire path visible. Reuters: Trump rejected allied mediation efforts. NBC interview: Trump says 'Iran wants a deal, terms not good enough yet' \u2014 demands complete nuclear abandonment. Iran rejects talks while strikes continue. Mojtaba Khamenei's first statement (written only): Hormuz stays closed, keep fighting. Trump questions if Khamenei is 'even alive.' US struck Kharg Island military targets, threatens oil infrastructure next. 2,500 Marines + USS Tripoli deploying.",
+      "summary": "Trump 48hr Hormuz ultimatum expires tonight. Iran threatens to mine entire Persian Gulf + hit all regional power/desal plants. Brent $113 (+55% since war). S&P 4-week threshold reached. Both sides at peak rhetorical escalation.",
       "metrics": [
         {
           "label": "Ceasefire Status",
@@ -708,6 +713,20 @@
       "date": "2026-03-23",
       "ballistic": 7,
       "drones": 16,
+      "cruise": 0
+    },
+    {
+      "day": 25,
+      "date": "2026-03-24",
+      "ballistic": 5,
+      "drones": 17,
+      "cruise": 0
+    },
+    {
+      "day": 26,
+      "date": "2026-03-25",
+      "ballistic": 0,
+      "drones": 9,
       "cruise": 0
     }
   ]
