@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-25T18:50:00+04:00",
-  "conflictDay": 26,
+  "lastUpdated": "2026-03-26T16:35:00+04:00",
+  "conflictDay": 27,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "green",
-      "summary": "Day 26: 0 ballistic + 9 drones engaged. Zero ballistic = minimal interceptor expenditure. Defense system under negligible load.",
+      "summary": "Day 27: 15 ballistic + 11 drones engaged. +3 deaths and +8 injuries indicate some projectiles got through or debris caused casualties. First fatalities in 8+ days.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -38,8 +38,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 26",
-          "url": "https://x.com/modgovae/status/2036759446676992421"
+          "name": "UAE MOD Day 27",
+          "url": "https://x.com/modgovae/status/2037146590260191337"
         }
       ],
       "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
@@ -47,39 +47,39 @@
     {
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
-      "status": "green",
-      "summary": "Day 26: 9 total \u2014 NEW WAR LOW. Zero ballistic missiles for the first time in the entire war. Only 9 drones. Despite Barakah nuclear plant threats and expired Hormuz ultimatum, kinetic volume at lowest point ever. Week 4 avg: ~19/day.",
+      "status": "amber",
+      "summary": "Day 27: 26 total (15 ballistic + 11 drones). Ballistic spiked from 0 yesterday to 15 today, highest since Day 9. Extreme volatility (0\u219215) supports autonomous regional unit thesis. +3 deaths, +8 injuries: deadliest day in 2+ weeks.",
       "metrics": [
         {
-          "label": "Day 26 Total",
-          "value": "9 (war low)",
-          "trend": "down"
+          "label": "Day 27 Total",
+          "value": "26",
+          "trend": "up"
         },
         {
-          "label": "Day 26 Ballistic",
-          "value": "0 (first time ever)",
-          "trend": "down"
+          "label": "Day 27 Ballistic",
+          "value": "15 (from 0 yesterday)",
+          "trend": "up"
         },
         {
-          "label": "Day 26 Drones",
-          "value": "9",
-          "trend": "down"
+          "label": "Day 27 Drones",
+          "value": "11",
+          "trend": "stable"
         },
         {
           "label": "Week 4 Average",
-          "value": "~19/day",
+          "value": "~18/day",
           "trend": "down"
         },
         {
           "label": "Total Projectiles",
-          "value": "2,187",
+          "value": "2,213",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 26",
-          "url": "https://x.com/modgovae/status/2036759446676992421"
+          "name": "UAE MOD Day 27",
+          "url": "https://x.com/modgovae/status/2037146590260191337"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -268,22 +268,22 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "amber",
-      "summary": "Barakah nuclear plant threat (Fars/IRGC) still on record. But Day 26 saw war-low 9 projectiles, zero ballistic. Deaths 8 (unchanged 8+ days). Rhetoric-kinetic gap widest of the war. 15-point plan may de-escalate if accepted.",
+      "summary": "Deaths: 11 (+3). MOD restructured count: 2 military martyrs + 1 Moroccan civilian contractor (new category) + 8 civilians (Indian added). Injuries: 169 (+8). Deadliest day since Day 18. First Indian fatality.",
       "metrics": [
         {
           "label": "Deaths",
-          "value": "8 (2 military + 6 civilian)",
-          "trend": "stable"
+          "value": "11 (was 8)",
+          "trend": "up"
         },
         {
           "label": "Injuries",
-          "value": "158 (+1)",
-          "trend": "stable"
+          "value": "169 (+8 today)",
+          "trend": "up"
         },
         {
-          "label": "Nationalities",
-          "value": "29",
-          "trend": "stable"
+          "label": "New",
+          "value": "Indian fatality + Moroccan contractor",
+          "trend": "up"
         }
       ],
       "sources": [
@@ -686,6 +686,13 @@
       "date": "2026-03-25",
       "ballistic": 0,
       "drones": 9,
+      "cruise": 0
+    },
+    {
+      "day": 27,
+      "date": "2026-03-26",
+      "ballistic": 15,
+      "drones": 11,
       "cruise": 0
     }
   ]
