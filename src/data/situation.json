@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-28T06:00:00+04:00",
-  "conflictDay": 28,
+  "lastUpdated": "2026-03-28T15:28:00+04:00",
+  "conflictDay": 29,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "green",
-      "summary": "Day 28: 6 ballistic + 9 drones engaged. Deaths 11 (unchanged from Day 27). Injuries 171 (+2). Defense holding comfortably at current volumes.",
+      "summary": "Day 29: 20 ballistic + 37 drones engaged. Deaths 11 (unchanged). Injuries 178 (+7, second-biggest jump this month). Defense system tested at higher volume after days of low load.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -38,8 +38,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 28",
-          "url": "https://x.com/modgovae/status/2037496877990674588"
+          "name": "UAE MOD Day 29",
+          "url": "https://x.com/modgovae/status/2037854374572269790"
         }
       ],
       "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
@@ -47,39 +47,39 @@
     {
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
-      "status": "green",
-      "summary": "Day 28 (4 weeks complete): 15 total (6 ballistic + 9 drones). Week 4 avg: ~19/day. Weekly decline continues: 160\u219250\u219230\u219219. No cruise for 16 days. Ballistic back to low single digits after Day 27's 15-spike.",
+      "status": "amber",
+      "summary": "Day 29: 57 total (20 ballistic + 37 drones). Highest volume since Day 18. 20 ballistic = highest since Day 9. Extreme volatility continues: 9\u219226\u219215\u219257. Week 4 avg pulled up to ~24/day. Possible response to ceasefire proposal rejection or autonomous unit salvo.",
       "metrics": [
         {
-          "label": "Day 28 Total",
-          "value": "15",
-          "trend": "down"
-        },
-        {
-          "label": "Week 4 Average",
-          "value": "~19/day",
-          "trend": "down"
-        },
-        {
-          "label": "Cruise Missiles",
-          "value": "0 for 16 days",
-          "trend": "stable"
-        },
-        {
-          "label": "Total Projectiles",
-          "value": "2,228",
+          "label": "Day 29 Total",
+          "value": "57 (spike)",
           "trend": "up"
         },
         {
-          "label": "Weekly Trend",
-          "value": "160\u219250\u219230\u219219",
-          "trend": "down"
+          "label": "Day 29 Ballistic",
+          "value": "20 (highest since D9)",
+          "trend": "up"
+        },
+        {
+          "label": "Day 29 Drones",
+          "value": "37",
+          "trend": "up"
+        },
+        {
+          "label": "Week 4 Average",
+          "value": "~24/day",
+          "trend": "up"
+        },
+        {
+          "label": "Total Projectiles",
+          "value": "2,285",
+          "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 28",
-          "url": "https://x.com/modgovae/status/2037496877990674588"
+          "name": "UAE MOD Day 29",
+          "url": "https://x.com/modgovae/status/2037854374572269790"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -268,7 +268,7 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "amber",
-      "summary": "11 dead (3 military/contractor martyrs + 8 civilians). 171 injured. Day 27 was deadliest in 2+ weeks (+3 deaths, +8 injuries). Indian national killed (first). Day 28 calmer (+2 injuries only). Casualties concentrated in ballistic spike days.",
+      "summary": "11 dead (unchanged). 178 injuries (+7 today). Injury spike correlates with volume spike. Ballistic missiles at highest level in 20 days. Ceasefire talks ongoing but kinetically this was the worst day in 11 days.",
       "metrics": [
         {
           "label": "Deaths",
@@ -700,6 +700,13 @@
       "date": "2026-03-27",
       "ballistic": 6,
       "drones": 9,
+      "cruise": 0
+    },
+    {
+      "day": 29,
+      "date": "2026-03-28",
+      "ballistic": 20,
+      "drones": 37,
       "cruise": 0
     }
   ]
