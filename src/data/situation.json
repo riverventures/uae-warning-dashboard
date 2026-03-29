@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-28T15:28:00+04:00",
-  "conflictDay": 29,
+  "lastUpdated": "2026-03-29T15:05:00+04:00",
+  "conflictDay": 30,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "green",
-      "summary": "Day 29: 20 ballistic + 37 drones engaged. Deaths 11 (unchanged). Injuries 178 (+7, second-biggest jump this month). Defense system tested at higher volume after days of low load.",
+      "summary": "Day 30: 16 ballistic + 42 drones engaged. Zero casualties despite 58 projectiles. Deaths 11, injuries 178 (both unchanged). Defense absorbing higher volume without casualties.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -38,8 +38,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 29",
-          "url": "https://x.com/modgovae/status/2037854374572269790"
+          "name": "UAE MOD Day 30",
+          "url": "https://x.com/modgovae/status/2038210942899769563"
         }
       ],
       "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
@@ -48,38 +48,38 @@
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "amber",
-      "summary": "Day 29: 57 total (20 ballistic + 37 drones). Highest volume since Day 18. 20 ballistic = highest since Day 9. Extreme volatility continues: 9\u219226\u219215\u219257. Week 4 avg pulled up to ~24/day. Possible response to ceasefire proposal rejection or autonomous unit salvo.",
+      "summary": "Day 30 (1 month): 58 total (16 ballistic + 42 drones). Back-to-back days above 55 for first time since Week 1. Volume uptick may be response to ceasefire talks (show of force) or autonomous unit salvo. 7-day avg ticking up. No cruise for 18 days.",
       "metrics": [
         {
-          "label": "Day 29 Total",
-          "value": "57 (spike)",
+          "label": "Day 30 Total",
+          "value": "58",
           "trend": "up"
         },
         {
-          "label": "Day 29 Ballistic",
-          "value": "20 (highest since D9)",
+          "label": "Day 29-30",
+          "value": "57 + 58 (consecutive)",
           "trend": "up"
         },
         {
-          "label": "Day 29 Drones",
-          "value": "37",
-          "trend": "up"
+          "label": "Day 30 Ballistic",
+          "value": "16",
+          "trend": "stable"
         },
         {
-          "label": "Week 4 Average",
-          "value": "~24/day",
+          "label": "Day 30 Drones",
+          "value": "42",
           "trend": "up"
         },
         {
           "label": "Total Projectiles",
-          "value": "2,285",
+          "value": "2,343",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 29",
-          "url": "https://x.com/modgovae/status/2037854374572269790"
+          "name": "UAE MOD Day 30",
+          "url": "https://x.com/modgovae/status/2038210942899769563"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -707,6 +707,13 @@
       "date": "2026-03-28",
       "ballistic": 20,
       "drones": 37,
+      "cruise": 0
+    },
+    {
+      "day": 30,
+      "date": "2026-03-29",
+      "ballistic": 16,
+      "drones": 42,
       "cruise": 0
     }
   ]
