@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-31T15:23:00+04:00",
-  "conflictDay": 32,
+  "lastUpdated": "2026-04-01T16:30:00+04:00",
+  "conflictDay": 33,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "green",
-      "summary": "Day 32: 8 ballistic + 4 cruise + 36 drones engaged. Deaths 11 (unchanged). Injuries 188 (+10, biggest jump in 2 weeks). Cruise missiles back in the mix tests different defense layers.",
+      "summary": "Day 33: 5 ballistic + 35 drones engaged. Deaths 12 (+1). Injuries 190 (+2). First death in 5 days.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -38,8 +38,8 @@
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 32",
-          "url": "https://x.com/modgovae/status/2038940277705220219"
+          "name": "UAE MOD Day 33",
+          "url": "https://x.com/modgovae/status/2039301785207390675"
         }
       ],
       "analysis": "The defense is working. Zero deaths in 4 days, zero injuries on Day 15. MOD opacity on intercept numbers is a reporting change, not necessarily a performance issue. Debris from successful intercepts remains the primary civilian risk."
@@ -48,38 +48,33 @@
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "amber",
-      "summary": "Day 32: 48 total (8 ballistic + 4 cruise + 36 drones). CRUISE MISSILES BACK after 20 days. First multi-weapon-type day since Day 12. +10 injuries (biggest spike in 2 weeks). Volume elevated for 4th consecutive day. Week 5 settling around 40-50/day.",
+      "summary": "Day 33: 40 total (5 ballistic + 35 drones). No cruise (yesterday's 4 was one-off). Week 5 averaging ~43/day, UP from Week 4's ~24. The weekly halving trend reversed. Volume stabilizing in the 38-58 band.",
       "metrics": [
         {
-          "label": "Day 32 Total",
-          "value": "48",
+          "label": "Day 33 Total",
+          "value": "40",
+          "trend": "stable"
+        },
+        {
+          "label": "Week 5 Average",
+          "value": "~43/day (up from W4 ~24)",
           "trend": "up"
         },
         {
-          "label": "Cruise Missiles",
-          "value": "4 (back after 20 days)",
-          "trend": "up"
-        },
-        {
-          "label": "Day 32 Ballistic",
-          "value": "8",
-          "trend": "down"
-        },
-        {
-          "label": "Day 32 Drones",
-          "value": "36",
+          "label": "Drones Cumulative",
+          "value": "2,012 (crossed 2K)",
           "trend": "up"
         },
         {
           "label": "Total Projectiles",
-          "value": "2,429",
+          "value": "2,469",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 32",
-          "url": "https://x.com/modgovae/status/2038940277705220219"
+          "name": "UAE MOD Day 33",
+          "url": "https://x.com/modgovae/status/2039301785207390675"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -268,7 +263,7 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "amber",
-      "summary": "11 dead (unchanged). 188 injuries (+10 today, biggest single-day jump in 2 weeks). Cruise missile return and injury spike suggest something got through or debris patterns changed. 4 consecutive zero-casualty-death days but injuries climbing.",
+      "summary": "12 dead (+1, first death in 5 days). 190 injuries (+2). 9 civilians + 2 military + 1 contractor. Week 5 volume uptick correlating with rising casualty rate. +11 injuries and +1 death over 2 days.",
       "metrics": [
         {
           "label": "Deaths",
@@ -729,6 +724,13 @@
       "ballistic": 8,
       "drones": 36,
       "cruise": 4
+    },
+    {
+      "day": 33,
+      "date": "2026-04-01",
+      "ballistic": 5,
+      "drones": 35,
+      "cruise": 0
     }
   ]
 }
