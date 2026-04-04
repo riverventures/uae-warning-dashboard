@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T16:10:00+04:00",
+  "lastUpdated": "2026-04-04T13:25:00+04:00",
   "conflictDay": 35,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
@@ -83,7 +83,7 @@
       "id": "airport",
       "title": "Airport & Airspace Operations",
       "status": "amber",
-      "summary": "DXB BACK OPERATIONAL (limited). Emirates: 206 flights today, Flydubai: 60. Air India Group: 26 regional flights. Fuel tank fire (Day 17) repaired. Capacity well below pre-war levels but flights running daily. Status upgraded from red.",
+      "summary": "DXB gradually resuming flights to selected destinations. Standard entry rules back in effect Apr 1. Emirates rebooking covers Feb 28-Apr 30. SalamAir suspended flights to Kuwait/Sharjah/Doha through Apr 15. BA cancellations to Dubai through May 31. Singapore Airlines to Dubai cancelled through May 31. Operational but far below normal.",
       "metrics": [
         {
           "label": "Emirates Flights (Mar 25)",
@@ -103,12 +103,12 @@
       ],
       "sources": [
         {
-          "name": "LoyaltyLobby Mar 25",
-          "url": "https://loyaltylobby.com/2026/03/25/emirates-flydubai-operations-stable-206-flights-for-wednesday-207-for-thursday-ex-dxb-march-25-26/"
+          "name": "Dubai Airports",
+          "url": "https://dubaiairports.ae/"
         },
         {
-          "name": "Time Out Dubai",
-          "url": "https://www.timeoutdubai.com/news/dxb-travel-advice-march-2026"
+          "name": "Newland Chase mobility update",
+          "url": "https://newlandchase.com/middle-east-crisis-situation-update/"
         }
       ],
       "analysis": "DXB fuel tank fire from drone debris triggered full flight suspension. Previous incidents (3 drone/debris events) did not stop operations. This one did. Unknown how long suspension will last \u2014 depends on fire containment and fuel infrastructure damage assessment. This validates the amber-to-red trigger for DXB that was in the original framework."
@@ -117,7 +117,7 @@
       "id": "ports",
       "title": "Ports & Cargo Continuity",
       "status": "amber",
-      "summary": "Iran told UN/IMO that 'non-hostile vessels' may transit Hormuz if they coordinate with Iranian authorities. Not a formal blockade. De-escalation signal, but still severely restricted. Alternative supply routes (Oman Green Corridor) still active.",
+      "summary": "Hormuz partially reopening. Iran allowing 'non-hostile' ships + Philippine-flagged vessels (Apr 2). Bloomberg: 3 ships (2 oil supertankers + 1 LNG) transited via new Oman coast route Apr 2. Iran allowed fertilizer shipments. Still far from normal but selective transits increasing.",
       "metrics": [
         {
           "label": "Iran Port Warning",
@@ -152,12 +152,12 @@
       ],
       "sources": [
         {
-          "name": "Reuters: Iran non-hostile ships",
-          "url": "https://www.reuters.com/world/middle-east/iran-says-non-hostile-ships-can-transit-strait-hormuz-ft-reports-2026-03-24/"
+          "name": "Bloomberg: Oman coast route",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-02/three-ships-appear-to-enter-hormuz-by-new-route-along-oman-coast"
         },
         {
-          "name": "Al Jazeera: Hormuz update",
-          "url": "https://www.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz"
+          "name": "Wikipedia: Hormuz crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
         }
       ],
       "analysis": "Iran's port warning is real and reported by tier-1 sources, but rhetoric hasn't translated to kinetic action against ports. The Fujairah fire was debris from a successful intercept \u2014 not deliberate targeting. Alternative supply routes (Fujairah, Khorfakkan, Oman Green Corridor) mitigate port disruption risk. Hormuz showing first cracks with selective transits. Watch for any deliberate port targeting \u2014 that would be a genuine red trigger."
@@ -166,7 +166,7 @@
       "id": "consumer",
       "title": "Retail Prices & Consumer Stress",
       "status": "green",
-      "summary": "No visible scarcity. Bloomberg confirmed shelves stocked. Government enforcement active (4,468 inspections, 449 warnings). Three alternative supply routes operational bypassing Hormuz. No credible reports of shortages.",
+      "summary": "UAE Economy Minister: no signs of food shortages, urges responsible shopping. 140 new local food products in pipeline. Emirates Food Security Council framework holding. Global fertilizer crisis looming (50% of traded urea via Hormuz) but no visible UAE shortages yet.",
       "metrics": [
         {
           "label": "Food Supply Status",
@@ -196,16 +196,12 @@
       ],
       "sources": [
         {
-          "name": "Gulf News - No stockpiling",
-          "url": "https://gulfnews.com/business/economy/uae-urges-residents-not-to-stockpile-food-reaffirms-markets-remain-well-supplied-1.500467501"
+          "name": "Gulf News: food supply steady",
+          "url": "https://gulfnews.com/business/retail/uae-minister-says-food-supply-steady-urges-residents-to-avoid-stockpiling-1.500495531"
         },
         {
-          "name": "Bloomberg - Shelves stocked",
-          "url": "https://www.bloomberg.com/news/articles/2026-03-10/dubai-keeps-shelves-stocked-as-iran-war-disrupts-food-shipments"
-        },
-        {
-          "name": "Dubai Customs Notice 04/2026",
-          "url": "https://www.dubaicustoms.gov.ae/en/PoliciesAndNotices/Notices/CN4_2026.pdf"
+          "name": "Gulf News: 140 new products",
+          "url": "https://gulfnews.com/business/retail/uae-scales-up-food-production-with-140-new-products-in-pipeline-1.500495391"
         }
       ],
       "analysis": "Green. Two weeks in, supply chain holding. Government response coordinated and aggressive on price gouging. Alternative routes (Fujairah, Khorfakkan, Oman Green Corridor) specifically built to maintain supply. Monitor if situation changes but current evidence = no stress."
@@ -214,7 +210,7 @@
       "id": "oman-border",
       "title": "Oman Border & Muscat Viability",
       "status": "green",
-      "summary": "Oman remains primary evacuation hub. NYT confirmed 600+ evacuated by bus, 1hr border queue. Oman Air Sharjah\u2192Muscat bus link active. BA/QR/Emirates/Etihad joint evacuation via Muscat. Oman barely targeted (8 projectiles total). Border operational, route validated. Oman Air regional cancellations extended through Mar 22 limits outbound flight options from Muscat.",
+      "summary": "Oman route remains operational. SalamAir selling tickets at UAE-Oman land border crossings for stranded travelers. Green Corridor still active. Oman continues as primary evacuation hub.",
       "metrics": [
         {
           "label": "Border Status",
@@ -249,12 +245,8 @@
       ],
       "sources": [
         {
-          "name": "NYT - Oman evacuation hub",
-          "url": "https://www.nytimes.com/2026/03/09/world/middleeast/iran-war-oman-evacuations.html"
-        },
-        {
-          "name": "Newland Chase - Travel advisory",
-          "url": "https://newlandchase.com/crisis-advisory-faq/"
+          "name": "Newland Chase Apr 1 update",
+          "url": "https://newlandchase.com/middle-east-crisis-situation-update/"
         }
       ],
       "analysis": "Oman route remains viable and is the primary evacuation corridor. No credible reports of border closure or major delays beyond the ~1hr queue NYT documented on Mar 9. Oman Air cancellations limit flight options from Muscat but other carriers operating. Route: Dubai \u2192 Al Ain \u2192 Buraimi/Hili border \u2192 Muscat."
@@ -292,22 +284,22 @@
     {
       "id": "market-duration",
       "title": "Market-Implied Conflict Duration",
-      "status": "amber",
-      "summary": "Brent crude FELL to $99.30 (-5% today, -12% from $113 peak) on ceasefire hopes. UAE equities rallied 2 consecutive days. DFMGI gaining on 15-point proposal news. Oil back below $100 for first time since mid-March. Still up ~35% since war started. AGBI reports hotel occupancy collapsed to single/low double digits, hospitality layoffs accelerating, rent defaults rising.",
+      "status": "red",
+      "summary": "Brent crude $112 (Apr 3). Dated Brent physical oil hit $140, highest since 2008 (Bloomberg Apr 2). Oil surging back from $99 ceasefire-hope dip. Ceasefire talks collapsed: Iran rejected 48hr ceasefire proposal (Reuters). Iran rejected 15-point plan. Pakistan-led mediation hit dead end (Times of Israel). Hotel occupancy still single digits. Tourism losing $600M/day.",
       "metrics": [
         {
           "label": "Brent Crude",
-          "value": "$99.30 (down from $113)",
-          "trend": "down"
-        },
-        {
-          "label": "UAE Equities",
-          "value": "2-day rally",
+          "value": "$112 (back up from $99 dip)",
           "trend": "up"
         },
         {
-          "label": "Hotel Occupancy",
-          "value": "Low single/double digits (was 80%)",
+          "label": "Dated Brent Physical",
+          "value": "$140 (highest since 2008)",
+          "trend": "up"
+        },
+        {
+          "label": "Ceasefire",
+          "value": "48hr proposal REJECTED",
           "trend": "down"
         },
         {
@@ -318,16 +310,16 @@
       ],
       "sources": [
         {
-          "name": "CNBC: Oil falls on talks signal",
-          "url": "https://www.cnbc.com/2026/03/25/oil-price-wti-brent-gas-lng-trump-iran-talks-hormuz.html"
+          "name": "Fortune: oil price Apr 3",
+          "url": "https://fortune.com/article/price-of-oil-04-03-2026/"
         },
         {
-          "name": "The National: UAE equities rally",
-          "url": "https://www.thenationalnews.com/business/markets/2026/03/25/uae-equities-lead-second-day-of-gains-on-ceasefire-hopes/"
+          "name": "Bloomberg: Dated Brent $140",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-02/the-world-s-main-physical-oil-price-soars-to-highest-since-2008"
         },
         {
-          "name": "AGBI: Dubai rental defaults",
-          "url": "https://www.agbi.com/analysis/real-estate/2026/03/dubai-landlords-face-tenant-rental-defaults/"
+          "name": "Reuters: 48hr ceasefire rejected",
+          "url": "https://www.reuters.com/world/middle-east/tehran-rejected-48-hour-ceasefire-proposal-us-iranian-media-citing-source-says-2026-04-03/"
         }
       ],
       "analysis": "Oil markets are pricing in a prolonged conflict. The IEA SPR release \u2014 largest in 50 years \u2014 hasn't capped prices because the Hormuz shortfall (~9M bpd) dwarfs the release rate (~1.4M bpd). This is the strongest objective indicator that markets expect the war to continue. Gold retreating suggests some war premium unwinding but oil tells the real story."
@@ -335,8 +327,8 @@
     {
       "id": "endgame",
       "title": "Conflict Endgame \u2014 Is Tehran Still Coherent?",
-      "status": "amber",
-      "summary": "MAJOR SHIFT: Trump admin sent Iran a 15-point ceasefire plan (NYT, Reuters, AP, Channel 12 confirmed). Brent dropped 9%+ on the news. UAE equities rallying. BUT: Fars News (IRGC-linked) says Tehran 'will not accept ceasefire' and considers talks 'not logical.' Confusion over Iran's actual response. First concrete peace proposal of the war.",
+      "status": "red",
+      "summary": "Ceasefire dead again. Iran rejected US 48-hour ceasefire proposal (Reuters/Fars). Iran rejected 15-point peace plan. Pakistan-led regional mediation hit dead end. Iran's 5 conditions: end all attacks, prevent war resumption, compensation, sovereignty over Hormuz. Parliament speaker Ghalibaf: 'Iran cannot be forced into submission.' Trump postponed power plant strikes 5 days for 'productive negotiations,' but Iran denies talks are happening.",
       "metrics": [
         {
           "label": "Ceasefire Status",
@@ -381,12 +373,12 @@
       ],
       "sources": [
         {
-          "name": "AP: 15-point ceasefire plan",
-          "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-march-24-2026-8bb5e79a98ea72fccc5c50b4931ad778"
+          "name": "Reuters: 48hr ceasefire rejected",
+          "url": "https://www.reuters.com/world/middle-east/tehran-rejected-48-hour-ceasefire-proposal-us-iranian-media-citing-source-says-2026-04-03/"
         },
         {
-          "name": "Guardian: Confusion over Iran response",
-          "url": "https://www.theguardian.com/world/live/2026/mar/25/middle-east-crisis-live-iran-war-oil-prices-more-us-troops-reportedly-deployed-donald-trump-attacks-on-lebanon"
+          "name": "Times of Israel: mediation dead end",
+          "url": "https://www.timesofisrael.com/regional-effort-to-broker-ceasefire-between-us-and-iran-reportedly-hits-dead-end/"
         }
       ],
       "analysis": "Both sides have explicitly rejected ceasefire through tier-1 outlets. This is not inference \u2014 it's direct statements. The gap between positions is wide: Trump wants nuclear surrender, Iran wants strikes to stop first. No mediator has bridged this. Kharg Island strike puts Iran's economic lifeline at risk, which hardens Iran's position rather than softening it. The war is not ending this week."
