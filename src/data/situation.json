@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-04T16:30:00+04:00",
-  "conflictDay": 36,
+  "lastUpdated": "2026-04-06T15:00:00+04:00",
+  "conflictDay": 38,
   "overallStatus": "amber",
   "disclaimer": "This dashboard is a decision-support tool based on open-source intelligence (OSINT). It is NOT official guidance. Consult your embassy and local authorities for evacuation decisions.",
   "sections": [
@@ -8,7 +8,7 @@
       "id": "interceptor",
       "title": "Air Defense / Interceptor Effectiveness",
       "status": "amber",
-      "summary": "Day 36: 23 ballistic + 56 drones engaged. Deaths 13 (+1, Egyptian civilian \u2014 first). Injuries 217 (+14, NEW WAR RECORD). Two consecutive record injury days (+12, +14). Defense under increasing pressure at these volumes.",
+      "summary": "Day 38: 12 ballistic + 2 cruise + 19 drones engaged. Deaths unchanged at 13. Injuries 221 (+4). Lower than Days 35-36 peaks but still a multi-layer attack.",
       "metrics": [
         {
           "label": "Intercept Breakdown",
@@ -48,38 +48,33 @@
       "id": "attack-volume",
       "title": "Attack Volume on UAE",
       "status": "red",
-      "summary": "Day 36: 79 total (23 ballistic + 56 drones). HIGHEST SINCE DAY 7. Two consecutive days of escalation (69\u219279). 23 ballistic = highest since Day 2. Ballistic approaching 500 cumulative. Week 5 now averaging ~55/day, surpassing Week 2. Clear escalation trend.",
+      "summary": "Days 37-38 update: Day 37 inferred from cumulative delta at 60 total (9 ballistic + 1 cruise + 50 drones). Day 38: 33 total (12 ballistic + 2 cruise + 19 drones). Week 5/6 remains far above the old Week 4 low. Cruise missiles appeared on 3 of the last 7 days.",
       "metrics": [
         {
-          "label": "Day 36 Total",
-          "value": "79 (highest in 29 days)",
+          "label": "Day 37 Total",
+          "value": "60 (inferred)",
           "trend": "up"
         },
         {
-          "label": "Day 36 Ballistic",
-          "value": "23 (highest since D2)",
-          "trend": "up"
+          "label": "Day 38 Total",
+          "value": "33",
+          "trend": "down"
         },
         {
-          "label": "Day 36 Drones",
-          "value": "56",
-          "trend": "up"
-        },
-        {
-          "label": "Week 5 Average",
-          "value": "~55/day (> Week 2)",
+          "label": "Cruise Missiles",
+          "value": "3 of last 7 days active",
           "trend": "up"
         },
         {
           "label": "Total Projectiles",
-          "value": "2,662",
+          "value": "2,755",
           "trend": "up"
         }
       ],
       "sources": [
         {
-          "name": "UAE MOD Day 36",
-          "url": "https://x.com/modgovae/status/2040391339599352110"
+          "name": "UAE MOD Day 38",
+          "url": "https://x.com/modgovae/status/2041108704263585898"
         }
       ],
       "analysis": "Volume collapse is sustained and real. KSA allocation increasing but from a small base. Iran's port rhetoric (Mar 14) did not translate into increased attacks on Day 15. Watch for any volume spike but current trend is clearly downward."
@@ -260,7 +255,7 @@
       "id": "civilian-escalation",
       "title": "Civilian & Infrastructure Escalation",
       "status": "red",
-      "summary": "13 dead (+1). 217 injuries (+14, WAR RECORD). Egyptian nationality added to deaths (first). Morocco + Russia added to injured (31 nationalities). Two consecutive record-breaking injury days. Casualty rate accelerating with volume.",
+      "summary": "13 dead (unchanged). 221 injured (+4). No new fatalities in the latest 48h, but injury count keeps climbing. Two-day cumulative implied by MOD totals is +18 injuries since Day 36.",
       "metrics": [
         {
           "label": "Deaths",
@@ -749,6 +744,20 @@
       "ballistic": 23,
       "drones": 56,
       "cruise": 0
+    },
+    {
+      "day": 37,
+      "date": "2026-04-05",
+      "ballistic": 9,
+      "drones": 50,
+      "cruise": 1
+    },
+    {
+      "day": 38,
+      "date": "2026-04-06",
+      "ballistic": 12,
+      "drones": 19,
+      "cruise": 2
     }
   ]
 }
